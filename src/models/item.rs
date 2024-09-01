@@ -22,7 +22,7 @@ impl Item {
                 name: "AS-v pro",
                 description: "talla señor S",
                 price: 95.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/loktiAS580.jpeg",
