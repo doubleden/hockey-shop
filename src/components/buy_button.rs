@@ -1,5 +1,6 @@
 use leptos::*;
 use crate::models::item::{Item};
+use stylers::style;
 
 #[component]
 pub fn WhatsappButton<'a>(product:&'a Item) -> impl IntoView {
@@ -12,7 +13,20 @@ pub fn WhatsappButton<'a>(product:&'a Item) -> impl IntoView {
         PHONE_NUMBER,
         urlencoding::encode(&message)
     );
-    view! {
+
+    let styler = style! {"WhatsappButton",
+        whatsapp-button button {
+            background-color: gray;
+            color: white;
+            padding: 10px 20px;
+        }
+      
+        whatsapp-button button:hover {
+            background-color: black;
+        }
+    };
+
+    view! { class = styler,
         <a href=whatsapp_url target="_blank" class="whatsapp-button">
             <button>"Comprar"</button>
         </a>

@@ -1,6 +1,7 @@
 use leptos::*;
 use crate::models::item::{Item, ItemStatus};
 use crate::components::buy_button::WhatsappButton;
+use stylers::style;
 
 #[component]
 pub fn ProductItem<'a>(product: &'a Item) -> impl IntoView {
@@ -12,7 +13,57 @@ pub fn ProductItem<'a>(product: &'a Item) -> impl IntoView {
         }
     };
 
-    view! {
+    let styler = style! {"ProductItem",
+        div.product-item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+            border-radius: 15px;
+            min-height: 350px;
+            display: grid;
+            grid-template-rows: 1fr 0.5fr auto;
+            height: 100%;
+        }
+
+        product-status {
+            margin-top: 5px;
+            margin-bottom: 20px;
+        }
+
+        product-image {
+            width: 100%;
+            height: 200px;
+        }
+
+        product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        descr {
+            font-size: 60%;
+        }
+          
+        sold {
+            background: red;
+            border-radius: 20px;
+        }
+          
+        available {
+            background: green;
+            border-radius: 20px;
+        }
+          
+        reserved {
+            background: orange;
+            border-radius: 20px;
+        }
+    };
+
+    view! { class = styler,
         <div class="product-item">
             <div class="product-image">
                 <a href=product.image_url target="_blank">
