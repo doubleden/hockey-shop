@@ -1,10 +1,11 @@
 
-#[derive(PartialEq)]
+#[derive(PartialEq, Clone)]
 pub enum ItemStatus {
     Disponible,
     Vendido,
     Reservado
 }
+#[derive(Clone)]
 pub struct Item {
     pub image_url: &'static str,
     pub name: &'static str,

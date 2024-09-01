@@ -2,10 +2,10 @@ use leptos::*;
 use crate::models::item::{Item};
 
 #[component]
-pub fn WhatsappButton<'a>(product:&'a Item) -> impl IntoView {
+pub fn WhatsappButton(item: Item) -> impl IntoView {
     const PHONE_NUMBER: &str = "79160518106";
     let message = format!(
-        "Hola, quiero comprar {} {} {}", product.name, product.description, product.price
+        "Hola, quiero comprar {} {} {}", item.name, item.description, item.price
     );
     let whatsapp_url = format!(
         "https://wa.me/{}?text={}",

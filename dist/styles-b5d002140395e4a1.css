@@ -46,6 +46,10 @@ body {
   height: 100%;
 }
 
+.hidden {
+  display: none;
+}
+
 .product-status {
   margin-top: 5px;
   margin-bottom: 20px;

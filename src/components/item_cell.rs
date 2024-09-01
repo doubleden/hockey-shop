@@ -3,13 +3,14 @@ use crate::models::item::{Item, ItemStatus};
 use crate::components::buy_button::WhatsappButton;
 
 #[component]
-pub fn ProductItem<'a>(product: &'a Item) -> impl IntoView {
-    let whatsapp_button = move || {
-        if product.status == ItemStatus::Disponible {
-            Some(view! { <WhatsappButton product=product /> })
-        } else {
-            None
-        }
+pub fn ProductItem(product: Item) -> impl IntoView {
+    let whatsapp_button =  {
+        view! { <WhatsappButton item = product.clone() /> }
+    };
+
+    let is_button_hidden = match product.status {
+        ItemStatus::Disponible => "nothidden",
+        _ => "hidden",
     };
 
     view! {
@@ -32,7 +33,9 @@ pub fn ProductItem<'a>(product: &'a Item) -> impl IntoView {
                         ItemStatus::Reservado => view! { <div class="reserved">"Reservado"</div> },
                     }}
                 </div>
-                {whatsapp_button()}
+                <div class=is_button_hidden>
+                     { whatsapp_button }
+                </div>
             </div>
         </div>
     }

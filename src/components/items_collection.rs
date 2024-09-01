@@ -8,7 +8,7 @@ pub fn CollectionOfProduct(products: Vec<Item>) -> impl IntoView {
         <div class="collection-view">
             {products
                 .into_iter()
-                .map(|product| view! { <ProductItem product=&product /> })
+                .map(|product| view! { <ProductItem product = product.clone() /> })
                 .collect_view()}
         </div>
     }
