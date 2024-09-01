@@ -39,30 +39,31 @@ pub fn Home() -> impl IntoView {
                         width="150"
                     />
                 </picture>
-
-                <h2>"Protection"</h2>
                 <div class="collection">
-                    <CollectionOfProduct products=Item::get_protections() />
-                </div>
+                    <h2>"Protection"</h2>
+                    <div>
+                        <CollectionOfProduct products=Item::get_protections() />
+                    </div>
 
-                <h2>"Palos Derecha"</h2>
-                <div class="collection">
-                    <CollectionOfProduct products=Item::get_right_sticks() />
-                </div>
+                    <h2>"Palos Derecha"</h2>
+                    <div>
+                        <CollectionOfProduct products=Item::get_right_sticks() />
+                    </div>
 
-                <h2>"Palos Izquierda"</h2>
-                <div class="collection">
-                    <CollectionOfProduct products=Item::get_left_sticks() />
-                </div>
+                    <h2>"Palos Izquierda"</h2>
+                    <div>
+                        <CollectionOfProduct products=Item::get_left_sticks() />
+                    </div>
 
-                <h2>"Portero"</h2>
-                <div class="collection">
-                    <CollectionOfProduct products=Item::get_portero() />
-                </div>
+                    <h2>"Portero"</h2>
+                    <div>
+                        <CollectionOfProduct products=Item::get_portero() />
+                     </div>
 
-                <h2>"Línea"</h2>
-                <div class="collection">
-                    <CollectionOfProduct products=Item::get_linea() />
+                    <h2>"Línea"</h2>
+                    <div>
+                        <CollectionOfProduct products=Item::get_linea() />
+                    </div>
                 </div>
             </div>
         </ErrorBoundary>
