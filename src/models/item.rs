@@ -22,7 +22,7 @@ impl Item {
                 name: "AS-v pro",
                 description: "talla señor S",
                 price: 95.0,
-                status: ItemStatus::Vendido,
+                status: ItemStatus::Disponible,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/loktiAS580.jpeg",
@@ -265,7 +265,7 @@ impl Item {
                 name: "Bauer Sling",
                 description: "55 flex p92",
                 price: 110.0,
-                status: ItemStatus::Reservado
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/ultraSonic.jpg",
@@ -300,7 +300,7 @@ impl Item {
                 name: "Bauer Nexus 2n pro shadow line",
                 description: "50 flex p92",
                 price: 80.0,
-                status: ItemStatus::Reservado
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/warriorQRE50_40flex.jpg",
@@ -342,7 +342,7 @@ impl Item {
                 name: "Warrior Alpha Qx3",
                 description: "55flex w03",
                 price: 55.0,
-                status: ItemStatus::Reservado
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/trueXC5.jpg",
