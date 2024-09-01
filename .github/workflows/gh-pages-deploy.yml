@@ -10,8 +10,6 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -41,28 +39,28 @@ jobs:
     - name: lint
       run: cargo clippy && cargo fmt
 
-    # If using tailwind...
-    # - name: Download and install tailwindcss binary
-    #   run: npm install -D tailwindcss && npx tailwindcss -i <INPUT/PATH.css> -o <OUTPUT/PATH.css>  # run tailwind
-
+    # Download and install Trunk binary
     - name: Download and install Trunk binary
-      run: wget -qO- https://github.com/trunk-rs/trunk/releases/download/v0.18.2/trunk-x86_64-unknown-linux-gnu.tar.gz | tar -xzf-
+      run: |
+        wget -qO- https://github.com/trunk-rs/trunk/releases/download/v0.18.2/trunk-x86_64-unknown-linux-gnu.tar.gz | tar -xzf-
+        mv trunk /usr/local/bin/
 
     - name: Build with Trunk
-      run: ./trunk build --release --public-url "${GITHUB_REPOSITORY#*/}"
+      run: trunk build --release --public-url "/${GITHUB_REPOSITORY#*/}"
 
-    # Deploy to GitHub Pages
-
+    # Setup Pages
     - name: Setup Pages
       uses: actions/configure-pages@v4
       with:
         enablement: true
 
+    # Upload artifact
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v2
       with:
         path: './dist'
 
+    # Deploy to GitHub Pages
     - name: Deploy to GitHub Pages 🚀
       id: deployment
       uses: actions/deploy-pages@v3
