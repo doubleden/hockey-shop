@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Add a plain CSS file: see https://trunkrs.dev/assets/#css -->
+    <!-- If using Tailwind with Leptos CSR, see https://trunkrs.dev/assets/#tailwind instead-->
+    <link rel="stylesheet" href="/styles-ce997538e69b3843.css" integrity="sha384&#x2D;6vKAA1&#x2B;4eG7XuWQz5FsP7kGYh0xuqTT8PiTHI4ON5LbRSGq4S3sGCX&#x2B;p9lHV1RJa"/>
+
+    <!-- Include favicon in dist output: see https://trunkrs.dev/assets/#icon -->
+    <link rel="icon" href="/favicon-e9cbd8f50cc65bf2.ico" integrity="sha384&#x2D;YobgLXwtz0GhXVUTHml49p32guapVFlEG8UpQdDVN3kekOqkQi&#x2B;qSXEpwp&#x2B;yM4BW"/>
+
+    <!-- include support for `wasm-bindgen --weak-refs` - see: https://rustwasm.github.io/docs/wasm-bindgen/reference/weak-references.html -->
+    
+<script type="module" nonce="va/Lv5CZuUvlhaV6cWIonw==">
+import init, * as bindings from '/hockey-shop-c4ac0eef02f211db.js';
+const wasm = await init('/hockey-shop-c4ac0eef02f211db_bg.wasm');
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+  
+<link rel="modulepreload" href="/hockey-shop-c4ac0eef02f211db.js" crossorigin=anonymous integrity="sha384-sNpLa7+7F3ocuR/58o+2v7xhVRVTPyEKPU4av+9dhjWItSuP+1odamJkMUPzAVBV">
+<link rel="preload" href="/hockey-shop-c4ac0eef02f211db_bg.wasm" crossorigin=anonymous integrity="sha384-of882GGzRTnwdKgbkC1cZxk5E4BFioFmyhH8a/cjHsgyjizZGcszvSdA5jxupaaf" as="fetch" type="application/wasm"></head>
+  <body></body>
+</html>
