@@ -1,6 +1,5 @@
 use leptos::*;
-use crate::models::item::{Item, ItemStatus};
-use urlencoding::encode;
+use crate::models::item::{Item};
 
 #[component]
 pub fn WhatsappButton<'a>(product:&'a Item) -> impl IntoView {
@@ -14,7 +13,7 @@ pub fn WhatsappButton<'a>(product:&'a Item) -> impl IntoView {
         urlencoding::encode(&message)
     );
     view! {
-        <a href={whatsapp_url} target="_blank" class="whatsapp-button">
+        <a href=whatsapp_url target="_blank" class="whatsapp-button">
             <button>"Comprar"</button>
         </a>
     }

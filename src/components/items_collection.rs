@@ -6,8 +6,9 @@ use crate::models::item::Item;
 pub fn CollectionOfProduct(products: Vec<Item>) -> impl IntoView {
     view! {
         <div class="collection-view">
-            {products.into_iter()
-                .map(|product| view! { <ProductItem product={&product} /> })
+            {products
+                .into_iter()
+                .map(|product| view! { <ProductItem product=&product /> })
                 .collect_view()}
         </div>
     }
