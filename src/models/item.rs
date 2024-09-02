@@ -191,6 +191,13 @@ impl Item {
                 status: ItemStatus::Disponible,
             },
             Item {
+                image_url: "https://siamster.com/img/rightSticks/ccmJetspeedFT1",
+                name: "CCM Jetspeed FT1",
+                description: "75 flex p29",
+                price: 80.0,
+                status: ItemStatus::Disponible,
+            },
+            Item {
                 image_url: "https://siamster.com/img/rightSticks/Vapor3X.jpeg",
                 name: "Bauer 3x",
                 description: "77 flex p28",
