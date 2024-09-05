@@ -146,7 +146,7 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/protection/konNexusN2700.png",
                 name: "Bauer Nexus N2700",
-                description: "talla 3.5 EE; talla 4.5 EE; talla 5 EE",
+                description: "talla 3.5 EE; talla 5 EE",
                 price: 95.0,
                 status: ItemStatus::Disponible,
             },
@@ -312,7 +312,7 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/rightSticks/warriorQRE50_40flex.jpg",
                 name: "Warrior QRE 50",
-                description: "40 Flex W03",
+                description: "40 Flex P92",
                 price: 40.0,
                 status: ItemStatus::Disponible
             },
@@ -333,7 +333,7 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/rightSticks/warriorQRE40_40flex.jpg",
                 name: "Warrior QRE 40",
-                description: "40 flex W03",
+                description: "40 flex p92",
                 price: 40.0,
                 status: ItemStatus::Disponible
             },
@@ -347,7 +347,7 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/rightSticks/warriorAlphaQX3_55flex.jpg.jpeg",
                 name: "Warrior Alpha Qx3",
-                description: "55flex w03",
+                description: "55flex p92",
                 price: 55.0,
                 status: ItemStatus::Vendido
             },
@@ -478,7 +478,7 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/leftSticks/warriorGR6Pro.png",
                 name: "Warrior GR6 Pro",
-                description: "75 flex w03; 85 flex w03",
+                description: "75 flex p92; 85 flex p92",
                 price: 220.0,
                 status: ItemStatus::Disponible,
             },
