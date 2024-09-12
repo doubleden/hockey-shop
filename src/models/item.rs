@@ -487,7 +487,7 @@ impl Item {
                 name: "Warrior Alpha LX2 Pro",
                 description: "85 flex p92",
                 price: 220.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/eastonSynergy.jpg",
@@ -513,7 +513,7 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/rightSticks/eastonSynergy.jpg",
                 name: "True Xc7",
-                description: "75 flex TC2T(1ud); 85 flex TC2T(3), TC4T(1); 95 flex TC4T(1)",
+                description: "75 flex TC2T(1ud), TC4T(1ud); 85 flex TC2T(3), TC4T(1); 95 flex TC4T(1)",
                 price: 85.0,
                 status: ItemStatus::Disponible,
             },
