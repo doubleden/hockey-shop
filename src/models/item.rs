@@ -279,7 +279,7 @@ impl Item {
                 name: "Bauer Supreme Ultra Sonic",
                 description: "65 flex p92",
                 price: 95.0,
-                status: ItemStatus::Disponible
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/2S70.jpeg",
@@ -300,7 +300,7 @@ impl Item {
                 name: "Bauer Nexus Geo",
                 description: "70 flex p28",
                 price: 120.0,
-                status: ItemStatus::Disponible
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/2sProShadow.jpg",
