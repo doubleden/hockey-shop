@@ -34,7 +34,7 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/protection/koleniAS580.JPG",
                 name: "As 580",
-                description: "talla 12 y 13",
+                description: "talla 12",
                 price: 80.0,
                 status: ItemStatus::Disponible,
             },
@@ -50,7 +50,7 @@ impl Item {
                 name: "CCM As580",
                 description: "talla jr L",
                 price: 80.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/grudTrue.JPG",
@@ -113,14 +113,14 @@ impl Item {
                 name: "CCM U+",
                 description: "talla  jr L",
                 price: 60.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/sumkaBauer.JPG",
                 name: "Bolso Bauer con ruedas",
                 description: "niños",
                 price: 60.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/sumkaCCM.JPG",
@@ -314,7 +314,7 @@ impl Item {
                 name: "Warrior QRE 50",
                 description: "40 Flex P92",
                 price: 40.0,
-                status: ItemStatus::Disponible
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/warrriorDynastyX3.jpg",
@@ -396,7 +396,7 @@ impl Item {
                 name: "Bauer Vapor X2.7",
                 description: "50 flex p92",
                 price: 65.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/nexus3N.png",
@@ -452,7 +452,7 @@ impl Item {
                 name: "Warrior QRE 50",
                 description: "55 Flex p92",
                 price: 60.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/warriorAlpha_65flex.png",
