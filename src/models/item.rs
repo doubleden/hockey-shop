@@ -147,7 +147,7 @@ impl Item {
                 image_url: "https://siamster.com/img/protection/konNexusN2700.png",
                 name: "Bauer Nexus N2700",
                 description: "talla 3.5 EE; talla 5 EE",
-                price: 95.0,
+                price: 105.0,
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -161,7 +161,7 @@ impl Item {
                 image_url: "https://siamster.com/img/protection/konBauerM1.png",
                 name: "Bauer M1",
                 description: "talla 2.5 D",
-                price: 95.0,
+                price: 120.0,
                 status: ItemStatus::Disponible,
             },
         ];
