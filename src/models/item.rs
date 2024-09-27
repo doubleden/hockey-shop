@@ -78,7 +78,7 @@ impl Item {
                 name: "Bauer Reakt 65 con mascara",
                 description: "talla señor L",
                 price: 140.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/shlemIMS5.jpeg",
