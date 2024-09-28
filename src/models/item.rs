@@ -35,7 +35,7 @@ impl Item {
                 image_url: "https://siamster.com/img/protection/koleniAS580.JPG",
                 name: "As 580",
                 description: "talla 12",
-                price: 80.0,
+                price: 85.0,
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -98,7 +98,7 @@ impl Item {
                 image_url: "https://siamster.com/img/protection/trusACP.JPG",
                 name: "Bauer ACP Elite (transformer)",
                 description: "talla intermedium L",
-                price: 80.0,
+                price: 95.0,
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -126,7 +126,7 @@ impl Item {
                 image_url: "https://siamster.com/img/protection/sumkaCCM.JPG",
                 name: "Bolso Ccm pro team bag",
                 description: "sin ruedas",
-                price: 70.0,
+                price: 90.0,
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -152,7 +152,7 @@ impl Item {
             },
             Item {
                 image_url: "https://siamster.com/img/protection/konBauer535.png",
-                name: "Bauer 535",
+                name: "CCM 535",
                 description: "talla 1 D",
                 price: 95.0,
                 status: ItemStatus::Disponible,
