@@ -180,14 +180,14 @@ impl Item {
                 image_url: "https://siamster.com/img/rightSticks/VaporProdigy.JPG",
                 name: "Bauer Vapor Prodigy",
                 description: "20 flex p01",
-                price: 40.0,
+                price: 50.0,
                 status: ItemStatus::Disponible,
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/NexusN2900.JPG",
                 name: "Bauer Nexus N2900",
                 description: "65 flex p92",
-                price: 55.0,
+                price: 60.0,
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -236,7 +236,7 @@ impl Item {
                 image_url: "https://siamster.com/img/rightSticks/nexus3N.png",
                 name: "Bauer nexus 3N",
                 description: "77 flex p92",
-                price: 80.0,
+                price: 85.0,
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -250,7 +250,7 @@ impl Item {
                 image_url: "https://siamster.com/img/rightSticks/Nexusn37.jpg.jpeg",
                 name: "Bauer Nexus n37",
                 description: "65 flex p92",
-                price: 65.0,
+                price: 70.0,
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -264,7 +264,7 @@ impl Item {
                 image_url: "https://siamster.com/img/rightSticks/vaporX2.7.jpeg",
                 name: "Bauer Vapor x2.7",
                 description: "50 flex P92",
-                price: 65.0,
+                price: 70.0,
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -285,14 +285,14 @@ impl Item {
                 image_url: "https://siamster.com/img/rightSticks/2S70.jpeg",
                 name: "Bauer Supreme 2s",
                 description: "70 flex P28",
-                price: 90.0,
+                price: 100.0,
                 status: ItemStatus::Disponible
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/1XLite.jpg",
                 name: "Bauer 1X Lite",
                 description: "67 flex P88",
-                price: 65.0,
+                price: 75.0,
                 status: ItemStatus::Disponible
             },
             Item {
@@ -320,21 +320,21 @@ impl Item {
                 image_url: "https://siamster.com/img/rightSticks/warrriorDynastyX3.jpg",
                 name: "Warrior Dynasty x3",
                 description: "70 flex curva Kopitar",
-                price: 50.0,
+                price: 60.0,
                 status: ItemStatus::Disponible
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/warriorQRE20_55flex.jpg.jpeg",
                 name: "Warrior QRE 20 pro",
                 description: "55 Flex W28",
-                price: 70.0,
+                price: 85.0,
                 status: ItemStatus::Disponible
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/warriorQRE40_40flex.jpg",
                 name: "Warrior QRE 40",
                 description: "40 flex p92",
-                price: 40.0,
+                price: 55.0,
                 status: ItemStatus::Disponible
             },
             Item {
@@ -362,7 +362,7 @@ impl Item {
                 image_url: "https://siamster.com/img/rightSticks/eastonSynergy.jpg",
                 name: "Easton Synergy gx",
                 description: "65 flex E3",
-                price: 55.0,
+                price: 60.0,
                 status: ItemStatus::Disponible
             },
             Item {
@@ -376,7 +376,7 @@ impl Item {
                 image_url: "https://siamster.com/img/rightSticks/trueXC7.jpg",
                 name: "True Xc7",
                 description: "75 flex TC2T(3ud),TC4T(5ud); 85 flex TC2T(ud1), TC4T(ud1)",
-                price: 85.0,
+                price: 100.0,
                 status: ItemStatus::Disponible
             },
             Item {
@@ -423,7 +423,7 @@ impl Item {
                 image_url: "https://siamster.com/img/leftSticks/bauerCustom.jpeg",
                 name: "Bauer Nexus Custom",
                 description: "77 flex p92",
-                price: 130.0,
+                price: 140.0,
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -458,14 +458,14 @@ impl Item {
                 image_url: "https://siamster.com/img/leftSticks/warriorAlpha_65flex.png",
                 name: "Warrior Alpha",
                 description: "65 flex w88",
-                price: 60.0,
+                price: 75.0,
                 status: ItemStatus::Disponible,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/warriorCovert.png",
                 name: "Warrior Covert",
                 description: "70 flex p92",
-                price: 80.0,
+                price: 85.0,
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -493,28 +493,28 @@ impl Item {
                 image_url: "https://siamster.com/img/rightSticks/eastonSynergy.jpg",
                 name: "Easton Synergy GX",
                 description: "50 flex p92",
-                price: 55.0,
+                price: 60.0,
                 status: ItemStatus::Disponible,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/eastonStealth.png",
                 name: "Easton Stealth",
                 description: "65 flex E3",
-                price: 70.0,
+                price: 80.0,
                 status: ItemStatus::Disponible,
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/eastonSynergy.jpg",
                 name: "Easton Synergy GX",
                 description: "100 flex E3",
-                price: 85.0,
+                price: 90.0,
                 status: ItemStatus::Disponible,
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/eastonSynergy.jpg",
                 name: "True Xc7",
                 description: "75 flex TC2T(1ud), TC4T(1ud); 85 flex TC2T(3), TC4T(1); 95 flex TC4T(1)",
-                price: 85.0,
+                price: 100.0,
                 status: ItemStatus::Disponible,
             },
         ]
