@@ -517,6 +517,20 @@ impl Item {
                 price: 100.0,
                 status: ItemStatus::Disponible,
             },
+            Item {
+                image_url: "https://siamster.com/img/leftSticks/bauerNexusSync.jpg",
+                name: "Bauer Nexus Sync",
+                description: "65 flex p92",
+                price: 170.0,
+                status: ItemStatus::Disponible,
+            },
+            Item {
+                image_url: "https://siamster.com/img/leftSticks/bauerAg5nt.jpg",
+                name: "Bauer AG5NT",
+                description: "55 flex p92",
+                price: 180.0,
+                status: ItemStatus::Disponible,
+            },
         ]
     }
 
