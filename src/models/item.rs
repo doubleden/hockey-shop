@@ -57,7 +57,7 @@ impl Item {
                 name: "True Xc9",
                 description: "talla jr M",
                 price: 45.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/kragi.JPG",
@@ -71,7 +71,7 @@ impl Item {
                 name: "CCM Tacks  70",
                 description: "talla YT",
                 price: 80.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/shlemReact65.JPG",
