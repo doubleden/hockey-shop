@@ -511,7 +511,7 @@ impl Item {
                 status: ItemStatus::Disponible,
             },
             Item {
-                image_url: "https://siamster.com/img/rightSticks/eastonSynergy.jpg",
+                image_url: "https://siamster.com/img/rightSticks/trueXC7.jpg",
                 name: "True Xc7",
                 description: "85 flex TC2T(3), TC4T(1); 95 flex TC4T(1)",
                 price: 100.0,
