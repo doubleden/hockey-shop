@@ -134,7 +134,7 @@ impl Item {
                 name: "CCM Tacks 4052",
                 description: "talla 3",
                 price: 95.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/konBauerXLP.png",
@@ -151,18 +151,11 @@ impl Item {
                 status: ItemStatus::Disponible,
             },
             Item {
-                image_url: "https://siamster.com/img/protection/konBauer535.png",
-                name: "CCM 535",
-                description: "talla 1 D",
-                price: 95.0,
-                status: ItemStatus::Disponible,
-            },
-            Item {
                 image_url: "https://siamster.com/img/protection/konBauerM1.png",
                 name: "Bauer M1",
                 description: "talla 2.5 D",
                 price: 120.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
         ];
     }
