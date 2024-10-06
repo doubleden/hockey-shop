@@ -417,7 +417,7 @@ impl Item {
                 name: "Bauer Nexus Custom",
                 description: "77 flex p92",
                 price: 140.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/bauerNexusTracer.png",
@@ -459,7 +459,7 @@ impl Item {
                 name: "Warrior Covert",
                 description: "70 flex p92",
                 price: 85.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/warriorCovertQ3.png",
