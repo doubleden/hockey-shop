@@ -34,9 +34,9 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/protection/koleniAS580.JPG",
                 name: "As 580",
-                description: "talla 12",
+                description: "",
                 price: 85.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/koleniWarrior.JPG",
@@ -487,7 +487,7 @@ impl Item {
                 name: "Easton Synergy GX",
                 description: "50 flex p92",
                 price: 60.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/eastonStealth.png",
