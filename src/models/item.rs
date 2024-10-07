@@ -534,7 +534,7 @@ impl Item {
                 name: "Bauer Mach Shadow",
                 description: "26inc P31",
                 price: 230.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/goali/vpor3X.jpg.webp",
@@ -560,14 +560,14 @@ impl Item {
                 name: "Bauer Vapor 3xPro",
                 description: "talla 8 fit 2",
                 price: 580.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/linea/vapor3x.jpg",
                 name: "Bauer Vapor 3x",
                 description: "tallas 7 fit 2; 7.5 fit 2; 8 fit 2",
                 price: 390.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
         ]
     }
