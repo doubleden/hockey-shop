@@ -102,14 +102,14 @@ impl Item {
                 status: ItemStatus::Disponible,
             },
             Item {
-                image_url: "https://siamster.com/img/protection/trusAS580.JPG",
+                image_url: "https://siamster.com/img/protection/trusCCMVector.jpeg",
                 name: "CCM Vector",
                 description: "talla Jr L",
                 price: 70.0,
                 status: ItemStatus::Disponible,
             },
             Item {
-                image_url: "https://siamster.com/img/protection/trusCCMVector.jpeg",
+                image_url: "https://siamster.com/img/protection/trusAS580.JPG",
                 name: "CCM AS 580",
                 description: "talla señor M",
                 price: 95.0,
