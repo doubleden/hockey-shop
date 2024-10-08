@@ -285,15 +285,15 @@ impl Item {
                 image_url: "https://siamster.com/img/rightSticks/sling55.jpg",
                 name: "Bauer Sling",
                 description: "55 flex p92",
-                price: 110.0,
-                status: ItemStatus::Vendido
+                price: 130.0,
+                status: ItemStatus::Disponible
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/ultraSonic.jpg",
                 name: "Bauer Supreme Ultra Sonic",
-                description: "65 flex p92",
-                price: 95.0,
-                status: ItemStatus::Vendido
+                description: "55 flex p92",
+                price: 85.0,
+                status: ItemStatus::Disponible
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/2S70.jpeg",
@@ -312,9 +312,9 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/rightSticks/nexusGeo.jpg",
                 name: "Bauer Nexus Geo",
-                description: "70 flex p28",
-                price: 120.0,
-                status: ItemStatus::Vendido
+                description: "50 flex p92",
+                price: 110.0,
+                status: ItemStatus::Disponible
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/2sProShadow.jpg",
@@ -508,7 +508,7 @@ impl Item {
                 name: "Easton Synergy GX",
                 description: "50 flex p92",
                 price: 60.0,
-                status: ItemStatus::Vendido,
+                status: ItemStatus::Disponible,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/eastonStealth.png",
