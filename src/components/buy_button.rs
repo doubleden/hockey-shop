@@ -14,7 +14,7 @@ pub fn WhatsappButton(item: Item) -> impl IntoView {
     );
 
     let (button_text, whatsapp_url) = match item.status {
-        ItemStatus::Disponible => {
+        ItemStatus::Logrono => {
             let whatsapp_url = format!(
                 "https://wa.me/{}?text={}",
                 PHONE_NUMBER,
@@ -22,7 +22,7 @@ pub fn WhatsappButton(item: Item) -> impl IntoView {
             );
             ("Comprar", whatsapp_url)
         },
-        ItemStatus::Ordenar => {
+        ItemStatus::Disponible => {
             let whatsapp_url = format!(
                 "https://wa.me/{}?text={}",
                 PHONE_NUMBER,
