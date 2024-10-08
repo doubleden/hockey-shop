@@ -29,9 +29,9 @@ pub fn ProductItem(product: Item) -> impl IntoView {
                 <div class="product-status">
                     {match product.status {
                         ItemStatus::Vendido => view! { <div class="sold">"Vendido"</div> },
-                        ItemStatus::Disponible => view! { <div class="available">"Disponible"</div> },
+                        ItemStatus::Disponible => view! { <div class="available">"Disponible en Logroño"</div> },
                         ItemStatus::Reservado => view! { <div class="reserved">"Reservado"</div> },
-                        ItemStatus::Ordenar => view! { <div class="order">"Por encargo"</div> }
+                        ItemStatus::Ordenar => view! { <div class="available">"Disponible"</div> }
                     }}
                 </div>
                 <div class=is_button_hidden>

@@ -10,7 +10,7 @@ pub fn WhatsappButton(item: Item) -> impl IntoView {
     );
 
     let ordenar_message = format!(
-        "Hola, quiero ordenar {} {} {}", item.name, item.description, item.price
+        "Hola, quiero comprar {} {} {}", item.name, item.description, item.price
     );
 
     let (button_text, whatsapp_url) = match item.status {
@@ -28,7 +28,7 @@ pub fn WhatsappButton(item: Item) -> impl IntoView {
                 PHONE_NUMBER,
                 urlencoding::encode(&ordenar_message)
             );
-            ("Ordenar", whatsapp_url)
+            ("Comprar", whatsapp_url)
         },
         _ => {
             ("No disponible", String::new())
