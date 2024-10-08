@@ -18,16 +18,23 @@ impl Item {
     pub fn get_protections() -> Vec<Item> {
         return vec![
             Item {
+                image_url: "https://siamster.com/img/protection/loktiBauerNSX.JPG",
+                name: "Bauer NSX",
+                description: "talla Jr S",
+                price: 40.0,
+                status: ItemStatus::Disponible,
+            },
+            Item {
                 image_url: "https://siamster.com/img/protection/loktiASV.JPG",
                 name: "AS-v pro",
-                description: "talla señor S",
+                description: "talla señor S y L",
                 price: 95.0,
                 status: ItemStatus::Disponible,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/loktiAS580.jpeg",
                 name: "As580",
-                description: "talla señor L",
+                description: "tallas señor S; Jr M; Jr L",
                 price: 80.0,
                 status: ItemStatus::Disponible,
             },
@@ -60,6 +67,13 @@ impl Item {
                 status: ItemStatus::Vendido,
             },
             Item {
+                image_url: "https://siamster.com/img/protection/kragiBauerX.jpg",
+                name: "Bauer X",
+                description: "Tallas 11; 12; 13",
+                price: 70.0,
+                status: ItemStatus::Disponible,
+            },
+            Item {
                 image_url: "https://siamster.com/img/protection/kragi.JPG",
                 name: "CCM AS-V Pro",
                 description: "Talla señor 14",
@@ -89,8 +103,15 @@ impl Item {
             },
             Item {
                 image_url: "https://siamster.com/img/protection/trusAS580.JPG",
+                name: "CCM Vector",
+                description: "talla Jr L",
+                price: 70.0,
+                status: ItemStatus::Disponible,
+            },
+            Item {
+                image_url: "https://siamster.com/img/protection/trusCCMVector.jpeg",
                 name: "CCM AS 580",
-                description: "talla señor L",
+                description: "talla señor M",
                 price: 95.0,
                 status: ItemStatus::Disponible,
             },
