@@ -9,7 +9,7 @@ pub fn ProductItem(product: Item) -> impl IntoView {
     };
 
     let is_button_hidden = match product.status {
-        ItemStatus::Disponible => "nothidden",
+        ItemStatus::Disponible | ItemStatus::Ordenar => "nothidden",
         _ => "hidden",
     };
 
@@ -31,6 +31,7 @@ pub fn ProductItem(product: Item) -> impl IntoView {
                         ItemStatus::Vendido => view! { <div class="sold">"Vendido"</div> },
                         ItemStatus::Disponible => view! { <div class="available">"Disponible"</div> },
                         ItemStatus::Reservado => view! { <div class="reserved">"Reservado"</div> },
+                        ItemStatus::Ordenar => view! { <div class="order">"Por encargo"</div> }
                     }}
                 </div>
                 <div class=is_button_hidden>

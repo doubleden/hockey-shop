@@ -87,6 +87,11 @@ body {
   border-radius: 20px;
 }
 
+.order {
+  background: blue;
+  border-radius: 20px;
+}
+
 .whatsapp-button button {
   background-color: gray;
   color: white;
