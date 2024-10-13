@@ -558,7 +558,7 @@ impl Item {
                 name: "Bauer AG5NT",
                 description: "55 flex p92",
                 price: 180.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
         ]
     }
