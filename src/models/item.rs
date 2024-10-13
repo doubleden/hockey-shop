@@ -82,8 +82,8 @@ impl Item {
                 status: ItemStatus::Logrono,
             },
             Item {
-                image_url: "https://siamster.com/img/protection/kragi.JPG",
-                name: "CCM AS-V Pro",
+                image_url: "https://siamster.com/img/protection/kragiCcmAS580.JPG",
+                name: "CCM AS 580",
                 description: "Talla señor 14",
                 price: 130.0,
                 status: ItemStatus::Logrono,
