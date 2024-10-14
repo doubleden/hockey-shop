@@ -42,7 +42,7 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/protection/loktiAS580.jpeg",
                 name: "As580",
-                description: "tallas señor S; Jr M; Jr L",
+                description: "tallas señor S; Jr L",
                 price: 80.0,
                 status: ItemStatus::Logrono,
             },
