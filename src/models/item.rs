@@ -481,7 +481,7 @@ impl Item {
                 name: "Warrior QRE 50",
                 description: "55 Flex p92",
                 price: 60.0,
-                status: ItemStatus::Vendido,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/warriorAlpha_65flex.png",
@@ -523,7 +523,7 @@ impl Item {
                 name: "Easton Synergy GX",
                 description: "50 flex p92",
                 price: 60.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/eastonStealth.png",
