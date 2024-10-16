@@ -273,7 +273,7 @@ impl Item {
                 name: "Bauer Nexus n37",
                 description: "65 flex p92",
                 price: 70.0,
-                status: ItemStatus::Vendido,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/flyLite70.jpg.jpeg",
@@ -385,7 +385,7 @@ impl Item {
                 name: "Easton Synergy gx",
                 description: "65 flex E3",
                 price: 60.0,
-                status: ItemStatus::Disponible
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/CCMAS1.jpg",
@@ -460,6 +460,13 @@ impl Item {
                 name: "Bauer Nexus Tracer",
                 description: "77 flex p92",
                 price: 195.0,
+                status: ItemStatus::Vendido,
+            },
+            Item {
+                image_url: "https://siamster.com/img/leftSticks/bauerNexusTracer.png",
+                name: "Bauer Nexus Tracer",
+                description: "70 flex p92",
+                price: 195.0,
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -467,7 +474,7 @@ impl Item {
                 name: "Bauer HyperLite",
                 description: "87 flex p28",
                 price: 140.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/flyLite70.jpg.jpeg",
@@ -501,15 +508,15 @@ impl Item {
                 image_url: "https://siamster.com/img/leftSticks/warriorCovertQ3.png",
                 name: "Warrior covert qr3 pro t1",
                 description: "75 Flex w02",
-                price: 120.0,
+                price: 90.0,
                 status: ItemStatus::Disponible,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/warriorGR6Pro.png",
                 name: "Warrior GR6 Pro",
-                description: "75 flex p92; 85 flex p92",
+                description: "85 flex p92",
                 price: 220.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/warriorAlphaLX2.png",
@@ -544,7 +551,7 @@ impl Item {
                 name: "True Xc7",
                 description: "85 flex TC2T(3), TC4T(1); 95 flex TC4T(1)",
                 price: 100.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/bauerNexusSync.jpg",
@@ -577,7 +584,7 @@ impl Item {
                 name: "Bauer Vapor 3X",
                 description: "25inc P31; 27inc P31",
                 price: 115.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/goali/blinAndLovushka.jpg",
