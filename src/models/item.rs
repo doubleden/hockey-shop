@@ -501,7 +501,7 @@ impl Item {
                 image_url: "https://siamster.com/img/leftSticks/warriorCovertQ3.png",
                 name: "Warrior covert qr3 pro t1",
                 description: "75 Flex w02",
-                price: 90.0,
+                price: 120.0,
                 status: ItemStatus::Disponible,
             },
             Item {
