@@ -617,14 +617,21 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/goali/mach.jpeg",
                 name: "Bauer Mach Shadow",
-                description: "26inc P31",
+                description: "26inc P31 Left",
                 price: 230.0,
                 status: ItemStatus::Vendido,
             },
             Item {
+                image_url: "https://siamster.com/img/goali/porteroStickSupremeM5Pro.jpg",
+                name: "Bauer Supreme M5 Pro Sr",
+                description: "26inc P31 Left",
+                price: 160.0,
+                status: ItemStatus::Logrono,
+            },
+            Item {
                 image_url: "https://siamster.com/img/goali/vpor3X.jpg.webp",
                 name: "Bauer Vapor 3X",
-                description: "25inc P31; 27inc P31",
+                description: "25inc P31 left; 27inc P31 left",
                 price: 115.0,
                 status: ItemStatus::Logrono,
             },
