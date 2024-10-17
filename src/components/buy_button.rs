@@ -6,11 +6,11 @@ use crate::models::item::ItemStatus;
 pub fn WhatsappButton(item: Item) -> impl IntoView {
     const PHONE_NUMBER: &str = "79160518106";
     let disponible_message = format!(
-        "Hola, quiero comprar {} {} {}", item.name, item.description, item.price
+        "Hola, quiero comprar {} {} {} {}", item.name, item.description, item.price, item.image_url
     );
 
     let ordenar_message = format!(
-        "Hola, quiero comprar {} {} {}", item.name, item.description, item.price
+        "Hola, quiero comprar {} {} {} {}", item.name, item.description, item.price, item.image_url
     );
 
     let (button_text, whatsapp_url) = match item.status {
