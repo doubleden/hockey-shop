@@ -217,7 +217,7 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/protection/konNexusN2700.png",
                 name: "Bauer Nexus N2700",
-                description: "talla 3.5 EE; talla 5 EE",
+                description: "talla 5 EE",
                 price: 105.0,
                 status: ItemStatus::Logrono,
             },
@@ -502,7 +502,7 @@ impl Item {
                 name: "Bauer Nexus Tracer",
                 description: "77 flex p92",
                 price: 195.0,
-                status: ItemStatus::Vendido,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/bauerNexusTracer.png",
@@ -551,14 +551,14 @@ impl Item {
                 name: "Warrior covert qr3 pro t1",
                 description: "75 Flex w02",
                 price: 90.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/warriorGR6Pro.png",
                 name: "Warrior GR6 Pro",
                 description: "85 flex p92",
                 price: 220.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/warriorAlphaLX2.png",
@@ -626,14 +626,14 @@ impl Item {
                 name: "Bauer Supreme M5 Pro Sr",
                 description: "26inc P31 Left",
                 price: 160.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/goali/vpor3X.jpg.webp",
                 name: "Bauer Vapor 3X",
                 description: "25inc P31 left; 27inc P31 left",
                 price: 115.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/goali/blinAndLovushka.jpg",
