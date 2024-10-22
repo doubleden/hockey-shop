@@ -300,7 +300,7 @@ impl Item {
                 image_url: "https://siamster.com/img/rightSticks/nexus3N.png",
                 name: "Bauer nexus 3N",
                 description: "77 flex p92",
-                price: 85.0,
+                price: 100.0,
                 status: ItemStatus::Logrono,
             },
             Item {
