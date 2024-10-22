@@ -112,7 +112,7 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/protection/kragiBauerX.jpg",
                 name: "Bauer X",
-                description: "Tallas 11; 12; 13",
+                description: "Tallas 11; 12",
                 price: 70.0,
                 status: ItemStatus::Logrono,
             },
