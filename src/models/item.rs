@@ -301,7 +301,7 @@ impl Item {
                 name: "Bauer nexus 3N",
                 description: "77 flex p92",
                 price: 100.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/hiperLite2.jpg.jpeg",
