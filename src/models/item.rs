@@ -82,6 +82,13 @@ impl Item {
                 status: ItemStatus::Logrono,
             },
             Item {
+                image_url: "https://siamster.com/img/protection/koleniTrueXC9.png",
+                name: "True XC9",
+                description: "talla 12",
+                price: 80.0,
+                status: ItemStatus::Logrono,
+            },
+            Item {
                 image_url: "https://siamster.com/img/protection/koleniBauerX.jpg",
                 name: "Bauer X",
                 description: "talla 13",
@@ -194,6 +201,13 @@ impl Item {
                 status: ItemStatus::Vendido,
             },
             Item {
+                image_url: "https://siamster.com/img/protection/sumkaSherwoodSilver.jpg",
+                name: "Bolso sherwood con ruedas",
+                description: "niños",
+                price: 90.0,
+                status: ItemStatus::Logrono,
+            },
+            Item {
                 image_url: "https://siamster.com/img/protection/sumkaCCM.JPG",
                 name: "Bolso Ccm pro team bag",
                 description: "sin ruedas",
@@ -281,6 +295,13 @@ impl Item {
                 description: "77 flex p28",
                 price: 120.0,
                 status: ItemStatus::Disponible,
+            },
+            Item {
+                image_url: "https://siamster.com/img/rightSticks/bauerSupreme3S.png",
+                name: "Bauer Supreme 3S",
+                description: "77 flex p28",
+                price: 120.0,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/Sling87.jpg",
@@ -494,8 +515,8 @@ impl Item {
                 image_url: "https://siamster.com/img/leftSticks/bauerCustom.jpeg",
                 name: "Bauer Nexus Custom",
                 description: "77 flex p92",
-                price: 140.0,
-                status: ItemStatus::Vendido,
+                price: 160.0,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/bauerNexusTracer.png",
@@ -509,7 +530,7 @@ impl Item {
                 name: "Bauer Nexus Tracer",
                 description: "70 flex p92",
                 price: 195.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/HyperLite55.jpg",
@@ -594,6 +615,13 @@ impl Item {
                 description: "85 flex TC2T(3), TC4T(1); 95 flex TC4T(1)",
                 price: 100.0,
                 status: ItemStatus::Vendido,
+            },
+            Item {
+                image_url: "https://siamster.com/img/rightSticks/trueXC7.jpg",
+                name: "True Xc7",
+                description: "85 flex TC2T",
+                price: 100.0,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/bauerNexusSync.jpg",
