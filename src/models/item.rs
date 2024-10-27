@@ -516,7 +516,7 @@ impl Item {
                 name: "Bauer Nexus Custom",
                 description: "77 flex p92",
                 price: 160.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/bauerNexusTracer.png",
@@ -530,7 +530,7 @@ impl Item {
                 name: "Bauer Nexus Tracer",
                 description: "70 flex p92",
                 price: 195.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/HyperLite55.jpg",
