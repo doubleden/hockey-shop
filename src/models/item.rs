@@ -585,7 +585,7 @@ impl Item {
                 image_url: "https://siamster.com/img/leftSticks/warriorAlphaLX2.png",
                 name: "Warrior Alpha LX2 Pro",
                 description: "75 flex p92",
-                price: 220.0,
+                price: 200.0,
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -628,7 +628,7 @@ impl Item {
                 name: "Bauer Nexus Sync",
                 description: "65 flex p92",
                 price: 170.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/bauerAg5nt.jpg",
