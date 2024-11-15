@@ -110,6 +110,20 @@ impl Item {
                 status: ItemStatus::Logrono,
             },
             Item {
+                image_url: "https://siamster.com/img/protection/grudWarriorAlpha.jpeg",
+                name: "Warrior Alpha",
+                description: "talla SR X-Small",
+                price: 65.0,
+                status: ItemStatus::Logrono,
+            },
+            Item {
+                image_url: "https://siamster.com/img/protection/grudCCMV04.jpeg",
+                name: "CCM V04",
+                description: "talla JR M",
+                price: 65.0,
+                status: ItemStatus::Logrono,
+            },
+            Item {
                 image_url: "https://siamster.com/img/protection/grudTrue.JPG",
                 name: "True Xc9",
                 description: "talla jr M",
@@ -150,6 +164,13 @@ impl Item {
                 description: "talla señor L",
                 price: 140.0,
                 status: ItemStatus::Vendido,
+            },
+            Item {
+                image_url: "https://siamster.com/img/protection/shlemReact65.JPG",
+                name: "Bauer Reakt 55 con mascara",
+                description: "talla señor M",
+                price: 100.0,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/shlemIMS5.jpeg",
@@ -201,6 +222,13 @@ impl Item {
                 status: ItemStatus::Vendido,
             },
             Item {
+                image_url: "https://siamster.com/img/protection/sumkaKlush.jpg",
+                name: "Bolso de pallos para equipo con ruedas",
+                description: "",
+                price: 70.0,
+                status: ItemStatus::Vendido,
+            },
+            Item {
                 image_url: "https://siamster.com/img/protection/sumkaSherwoodSilver.jpg",
                 name: "Bolso sherwood con ruedas",
                 description: "niños",
@@ -212,6 +240,20 @@ impl Item {
                 name: "Bolso Ccm pro team bag",
                 description: "sin ruedas",
                 price: 90.0,
+                status: ItemStatus::Disponible,
+            },
+            Item {
+                image_url: "https://siamster.com/img/protection/butilka.png",
+                name: "Botella sherwood",
+                description: "2 ud",
+                price: 9.0,
+                status: ItemStatus::Disponible,
+            },
+            Item {
+                image_url: "https://siamster.com/img/protection/shurki.jpg",
+                name: "Cordones",
+                description: "Blanco (2ud 330cm); Negro (1ud, 305cm)",
+                price: 8.0,
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -240,6 +282,13 @@ impl Item {
                 name: "Bauer M1",
                 description: "talla 2.5 D",
                 price: 120.0,
+                status: ItemStatus::Vendido,
+            },
+            Item {
+                image_url: "https://siamster.com/img/protection/konkiCCMTacks9360.png",
+                name: "CCM SuperTacks 9460",
+                description: "talla 2 D",
+                price: 110.0,
                 status: ItemStatus::Vendido,
             },
         ];
@@ -437,6 +486,20 @@ impl Item {
                 status: ItemStatus::Disponible
             },
             Item {
+                image_url: "https://siamster.com/img/rightSticks/warriorQRL.jpg.webp",
+                name: "Warrior QRL",
+                description: "50 flex p92",
+                price: 60.0,
+                status: ItemStatus::Logrono
+            },
+            Item {
+                image_url: "https://siamster.com/img/rightSticks/warriorGrey.JPG",
+                name: "Warrior Gris",
+                description: "p92 70flex Int",
+                price: 50.0,
+                status: ItemStatus::Logrono
+            },
+            Item {
                 image_url: "https://siamster.com/img/rightSticks/trueXC5.jpg",
                 name: "True Xc5",
                 description: "58 flex p92",
@@ -451,6 +514,20 @@ impl Item {
                 status: ItemStatus::Vendido
             },
             Item {
+                image_url: "https://siamster.com/img/rightSticks/easton450.jpg",
+                name: "Easton 450",
+                description: "65 flex p92",
+                price: 50.0,
+                status: ItemStatus::Logrono
+            },
+            Item {
+                image_url: "https://siamster.com/img/rightSticks/easton450.jpg",
+                name: "Easton 450",
+                description: "85 flex p92",
+                price: 60.0,
+                status: ItemStatus::Logrono
+            },
+            Item {
                 image_url: "https://siamster.com/img/rightSticks/CCMAS1.jpg",
                 name: "CCM Tacks AS1",
                 description: "75 flex curva custom 5",
@@ -460,7 +537,7 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/rightSticks/trueXC7.jpg",
                 name: "True Xc7",
-                description: "75 flex TC2T(2ud),TC4T(4ud); 85 flex TC2T(ud1), TC4T(ud1)",
+                description: "75 flex TC2T(3ud),TC4T(4ud); 85 flex TC2T(ud1), TC4T(ud1)",
                 price: 100.0,
                 status: ItemStatus::Disponible
             },
@@ -654,14 +731,14 @@ impl Item {
                 name: "Bauer Supreme M5 Pro Sr",
                 description: "26inc P31 Left",
                 price: 160.0,
-                status: ItemStatus::Vendido,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/goali/vpor3X.jpg.webp",
                 name: "Bauer Vapor 3X",
-                description: "25inc P31 left; 27inc P31 left",
-                price: 115.0,
-                status: ItemStatus::Vendido,
+                description: "25inc P31 left",
+                price: 130.0,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/goali/blinAndLovushka.jpg",
