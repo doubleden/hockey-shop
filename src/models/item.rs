@@ -223,7 +223,7 @@ impl Item {
             },
             Item {
                 image_url: "https://siamster.com/img/protection/sumkaKlush.jpg",
-                name: "Bolso de pallos para equipo con ruedas",
+                name: "Bolso de palos para equipo con ruedas",
                 description: "",
                 price: 70.0,
                 status: ItemStatus::Vendido,
