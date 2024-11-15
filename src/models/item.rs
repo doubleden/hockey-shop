@@ -289,7 +289,7 @@ impl Item {
                 name: "CCM SuperTacks 9460",
                 description: "talla 2 D",
                 price: 110.0,
-                status: ItemStatus::Vendido,
+                status: ItemStatus::Logrono,
             },
         ];
     }
