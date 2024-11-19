@@ -133,7 +133,7 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/protection/kragiBauerX.jpg",
                 name: "Bauer X",
-                description: "Tallas 11; 12",
+                description: "Tallas 12",
                 price: 70.0,
                 status: ItemStatus::Logrono,
             },
@@ -553,7 +553,7 @@ impl Item {
                 name: "CCM Ribcor 8",
                 description: "80 flex p90",
                 price: 175.0,
-                status: ItemStatus::Disponible
+                status: ItemStatus::Vendido
             },
         ]
     }
