@@ -399,7 +399,7 @@ impl Item {
                 name: "Bauer Vapor x2.7",
                 description: "50 flex P92",
                 price: 70.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/sling55.jpg",
@@ -413,7 +413,7 @@ impl Item {
                 name: "Bauer Supreme Ultra Sonic",
                 description: "55 flex p92",
                 price: 85.0,
-                status: ItemStatus::Logrono
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/2S70.jpeg",
@@ -677,7 +677,7 @@ impl Item {
                 name: "Easton Stealth",
                 description: "65 flex E3",
                 price: 80.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/eastonSynergy.jpg",
@@ -698,7 +698,7 @@ impl Item {
                 name: "True Xc7",
                 description: "85 flex TC2T",
                 price: 100.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/bauerNexusSync.jpg",
