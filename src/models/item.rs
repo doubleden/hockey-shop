@@ -145,6 +145,13 @@ impl Item {
                 status: ItemStatus::Logrono,
             },
             Item {
+                image_url: "https://siamster.com/img/protection/kragiBauerX.jpg",
+                name: "Bauer X",
+                description: "Talla 13",
+                price: 30.0,
+                status: ItemStatus::Logrono,
+            },
+            Item {
                 image_url: "https://siamster.com/img/protection/kragiCcmAS580.png",
                 name: "CCM AS 580",
                 description: "Talla señor 14",
@@ -170,7 +177,7 @@ impl Item {
                 name: "Bauer Reakt 55 con mascara",
                 description: "talla señor M",
                 price: 100.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/shlemIMS5.jpeg",
@@ -289,7 +296,7 @@ impl Item {
                 name: "CCM SuperTacks 9460",
                 description: "talla 2 D",
                 price: 110.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
         ];
     }
