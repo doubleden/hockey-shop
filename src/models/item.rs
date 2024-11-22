@@ -280,9 +280,9 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/protection/konNexusN2700.png",
                 name: "Bauer Nexus N2700",
-                description: "talla 5 EE",
+                description: "",
                 price: 105.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/konBauerM1.png",
