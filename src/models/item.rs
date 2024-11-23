@@ -315,7 +315,7 @@ impl Item {
                 name: "Bauer Vapor Prodigy",
                 description: "20 flex p01",
                 price: 50.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/NexusN2900.JPG",
@@ -635,7 +635,7 @@ impl Item {
                 name: "Warrior QRE 50",
                 description: "55 Flex p92",
                 price: 60.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/warriorAlpha_65flex.png",
