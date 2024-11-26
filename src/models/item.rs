@@ -42,7 +42,7 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/protection/loktiAS580.jpeg",
                 name: "As580",
-                description: "tallas señor S; Jr L",
+                description: "tallas señor S",
                 price: 80.0,
                 status: ItemStatus::Logrono,
             },
@@ -79,7 +79,7 @@ impl Item {
                 name: "Bauer Supreme GS",
                 description: "talla 11",
                 price: 80.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/koleniTrueXC9.png",
@@ -135,7 +135,7 @@ impl Item {
                 name: "Bauer X",
                 description: "Tallas 12",
                 price: 70.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/kragiBauerX.jpg",
@@ -191,7 +191,7 @@ impl Item {
                 name: "CCM Vector",
                 description: "talla Jr L",
                 price: 70.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/trusAS580.JPG",
