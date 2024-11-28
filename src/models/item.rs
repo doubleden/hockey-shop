@@ -504,7 +504,7 @@ impl Item {
                 name: "Warrior Gris",
                 description: "p92 70flex Int",
                 price: 50.0,
-                status: ItemStatus::Logrono
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/trueXC5.jpg",
