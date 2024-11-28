@@ -28,7 +28,7 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/protection/loktiASV.JPG",
                 name: "AS-v pro",
-                description: "talla señor S y L",
+                description: "talla señor S",
                 price: 95.0,
                 status: ItemStatus::Logrono,
             },
@@ -93,14 +93,14 @@ impl Item {
                 name: "Bauer X",
                 description: "talla 13",
                 price: 60.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/grudAS580.JPG",
                 name: "CCM As580",
                 description: "talla jr L",
                 price: 80.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/grudWarriorDX3.jpg",
@@ -198,7 +198,7 @@ impl Item {
                 name: "CCM AS 580",
                 description: "talla señor M",
                 price: 95.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/trusACP.JPG",
@@ -240,7 +240,7 @@ impl Item {
                 name: "Bolso sherwood con ruedas",
                 description: "niños",
                 price: 90.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/sumkaCCM.JPG",
@@ -357,7 +357,7 @@ impl Item {
                 name: "Bauer Supreme 3S",
                 description: "77 flex p28",
                 price: 120.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/Sling87.jpg",
@@ -738,14 +738,14 @@ impl Item {
                 name: "Bauer Supreme M5 Pro Sr",
                 description: "26inc P31 Left",
                 price: 160.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/goali/vpor3X.jpg.webp",
                 name: "Bauer Vapor 3X",
                 description: "25inc P31 left",
                 price: 130.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/goali/blinAndLovushka.jpg",
