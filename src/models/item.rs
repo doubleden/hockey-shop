@@ -645,7 +645,7 @@ impl Item {
                 status: ItemStatus::Vendido,
             },
             Item {
-                image_url: "https://siamster.com/img/rightSticks/warriorCovertQREdge.jpg",
+                image_url: "https://siamster.com/img/leftSticks/warriorCovertQREdge.jpg",
                 name: "Warrior QREdge",
                 description: "50 Flex p92",
                 price: 80.0,
