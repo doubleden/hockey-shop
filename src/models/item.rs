@@ -298,6 +298,13 @@ impl Item {
                 price: 110.0,
                 status: ItemStatus::Vendido,
             },
+            Item {
+                image_url: "https://siamster.com/img/protection/termoOrange.jpeg",
+                name: "Bermudas",
+                description: "S (2 ud), M (2 ud), L",
+                price: 35.0,
+                status: ItemStatus::Logrono,
+            },
         ];
     }
 
@@ -638,6 +645,13 @@ impl Item {
                 status: ItemStatus::Vendido,
             },
             Item {
+                image_url: "https://siamster.com/img/rightSticks/warriorCovertQREdge.jpg",
+                name: "Warrior QREdge",
+                description: "50 Flex p92",
+                price: 80.0,
+                status: ItemStatus::Logrono,
+            },
+            Item {
                 image_url: "https://siamster.com/img/leftSticks/warriorAlpha_65flex.png",
                 name: "Warrior Alpha",
                 description: "65 flex w88",
@@ -726,6 +740,13 @@ impl Item {
 
     pub fn get_portero() -> Vec<Item> {
         return vec![
+            Item {
+                image_url: "https://siamster.com/img/goali/hyperLite2.jpg.webp",
+                name: "Bauer HyperLite 2",
+                description: "26inc P31 Left",
+                price: 250.0,
+                status: ItemStatus::Logrono,
+            },
             Item {
                 image_url: "https://siamster.com/img/goali/mach.jpeg",
                 name: "Bauer Mach Shadow",
