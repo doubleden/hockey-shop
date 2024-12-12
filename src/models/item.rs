@@ -254,14 +254,14 @@ impl Item {
                 name: "Botella sherwood",
                 description: "2 ud",
                 price: 9.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/shurki.jpg",
                 name: "Cordones",
                 description: "Blanco (2ud 330cm); Negro (1ud, 305cm)",
                 price: 8.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/konCCM4052.png",
