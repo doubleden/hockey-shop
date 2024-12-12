@@ -161,30 +161,30 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/protection/shlemTacks70.JPG",
                 name: "CCM Tacks  70",
-                description: "talla YT",
-                price: 80.0,
-                status: ItemStatus::Vendido,
+                description: "talla sr S",
+                price: 95.0,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/shlemReact65.JPG",
                 name: "Bauer Reakt 65 con mascara",
-                description: "talla señor L",
+                description: "talla señor M",
                 price: 140.0,
-                status: ItemStatus::Vendido,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/shlemReact65.JPG",
                 name: "Bauer Reakt 55 con mascara",
-                description: "talla señor M",
+                description: "talla señor L",
                 price: 100.0,
-                status: ItemStatus::Vendido,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/shlemIMS5.jpeg",
                 name: "Bauer Ims 5.0",
-                description: "talla señor S, M, L",
-                price: 65.0,
-                status: ItemStatus::Disponible,
+                description: "talla señor L",
+                price: 80.0,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/trusCCMVector.jpeg",
@@ -370,8 +370,8 @@ impl Item {
                 image_url: "https://siamster.com/img/rightSticks/HyperLite55.jpg",
                 name: "Bauer Vapor HiperLite",
                 description: "55 flex p92",
-                price: 150.0,
-                status: ItemStatus::Disponible,
+                price: 175.0,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/nexus3N.png",
@@ -426,8 +426,8 @@ impl Item {
                 image_url: "https://siamster.com/img/rightSticks/2S70.jpeg",
                 name: "Bauer Supreme 2s",
                 description: "70 flex P28",
-                price: 100.0,
-                status: ItemStatus::Disponible
+                price: 115.0,
+                status: ItemStatus::Logrono
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/1XLite.jpg",
@@ -591,9 +591,9 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/leftSticks/bauerProto.png",
                 name: "Bauer Proto",
-                description: "65 flex 90tm (ud2)",
+                description: "65 flex 90tm ",
                 price: 195.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/bauerCustom.jpeg",
