@@ -315,7 +315,7 @@ impl Item {
                 name: "Bauer 2s pro",
                 description: "35 flex p92",
                 price: 60.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/VaporProdigy.JPG",
