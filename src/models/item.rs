@@ -378,7 +378,7 @@ impl Item {
                 name: "Bauer Vapor HiperLite",
                 description: "55 flex p92",
                 price: 175.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/nexus3N.png",
