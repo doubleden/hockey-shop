@@ -18,6 +18,8 @@ pub struct Item {
 impl Item {
     pub fn get_protections() -> Vec<Item> {
         return vec![
+
+            // Локти 
             Item {
                 image_url: "https://siamster.com/img/protection/loktiBauerNSX.JPG",
                 name: "Bauer NSX",
@@ -53,6 +55,8 @@ impl Item {
                 price: 50.0,
                 status: ItemStatus::Logrono,
             },
+
+            // Колени
             Item {
                 image_url: "https://siamster.com/img/protection/koleniAS580.JPG",
                 name: "As 580",
@@ -95,6 +99,8 @@ impl Item {
                 price: 60.0,
                 status: ItemStatus::Vendido,
             },
+
+            // Грудь
             Item {
                 image_url: "https://siamster.com/img/protection/grudAS580.JPG",
                 name: "CCM As580",
@@ -130,6 +136,8 @@ impl Item {
                 price: 45.0,
                 status: ItemStatus::Vendido,
             },
+
+            //Краги
             Item {
                 image_url: "https://siamster.com/img/protection/kragiBauerX.jpg",
                 name: "Bauer X",
@@ -158,6 +166,8 @@ impl Item {
                 price: 130.0,
                 status: ItemStatus::Logrono,
             },
+
+            //Шлема
             Item {
                 image_url: "https://siamster.com/img/protection/shlemTacks70.JPG",
                 name: "CCM Tacks  70",
@@ -184,8 +194,10 @@ impl Item {
                 name: "Bauer Ims 5.0",
                 description: "talla señor L",
                 price: 80.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
+
+            // Трусы
             Item {
                 image_url: "https://siamster.com/img/protection/trusCCMVector.jpeg",
                 name: "CCM Vector",
@@ -221,6 +233,8 @@ impl Item {
                 price: 60.0,
                 status: ItemStatus::Vendido,
             },
+
+            // Сумки
             Item {
                 image_url: "https://siamster.com/img/protection/sumkaBauer.JPG",
                 name: "Bolso Bauer con ruedas",
@@ -249,6 +263,8 @@ impl Item {
                 price: 90.0,
                 status: ItemStatus::Disponible,
             },
+
+            // Акссесуары
             Item {
                 image_url: "https://siamster.com/img/protection/butilka.png",
                 name: "Botella sherwood",
@@ -263,6 +279,8 @@ impl Item {
                 price: 8.0,
                 status: ItemStatus::Logrono,
             },
+
+            // Коньки
             Item {
                 image_url: "https://siamster.com/img/protection/konCCM4052.png",
                 name: "CCM Tacks 4052",
@@ -301,7 +319,7 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/protection/termoOrange.jpeg",
                 name: "Bermudas",
-                description: "S (2 ud), M (2 ud), L",
+                description: "S (2 ud), M",
                 price: 35.0,
                 status: ItemStatus::Logrono,
             },
