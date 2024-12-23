@@ -224,7 +224,7 @@ impl Item {
                 name: "Bauer Nexus N7000",
                 description: "talla junior M",
                 price: 65.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/trusCCMU.jpg",
