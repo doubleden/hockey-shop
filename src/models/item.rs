@@ -667,7 +667,7 @@ impl Item {
                 name: "Warrior QREdge",
                 description: "50 Flex p92",
                 price: 80.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/warriorAlpha_65flex.png",
