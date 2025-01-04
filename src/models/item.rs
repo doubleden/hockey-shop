@@ -319,7 +319,7 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/protection/termoOrange.jpeg",
                 name: "Bermudas",
-                description: "S, M",
+                description: "S",
                 price: 35.0,
                 status: ItemStatus::Logrono,
             },
@@ -417,7 +417,7 @@ impl Item {
                 name: "Bauer Nexus n37",
                 description: "65 flex p92",
                 price: 70.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/flyLite70.jpg.jpeg",
