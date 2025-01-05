@@ -417,7 +417,7 @@ impl Item {
                 name: "Bauer Nexus n37",
                 description: "65 flex p92",
                 price: 70.0,
-                status: ItemStatus::Vendido,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/flyLite70.jpg.jpeg",
