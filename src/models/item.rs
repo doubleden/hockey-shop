@@ -576,7 +576,7 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/rightSticks/trueXC7.jpg",
                 name: "True Xc7",
-                description: "75 flex TC2T(1ud),TC4T(1ud)",
+                description: "75 flex TC2T(2ud)",
                 price: 100.0,
                 status: ItemStatus::Logrono
             },
