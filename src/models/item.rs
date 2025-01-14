@@ -178,7 +178,7 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/protection/shlemReact65.JPG",
                 name: "Bauer Reakt 65 con mascara",
-                description: "talla señor M",
+                description: "talla señor S",
                 price: 140.0,
                 status: ItemStatus::Logrono,
             },
@@ -192,9 +192,9 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/protection/shlemIMS5.jpeg",
                 name: "Bauer Ims 5.0",
-                description: "talla señor L",
+                description: "talla señor M",
                 price: 80.0,
-                status: ItemStatus::Vendido,
+                status: ItemStatus::Logrono,
             },
 
             // Трусы
@@ -464,7 +464,7 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/rightSticks/nexusGeo.jpg",
                 name: "Bauer Nexus Geo",
-                description: "50 flex p92",
+                description: "50 flex p92, 40 flex p92",
                 price: 110.0,
                 status: ItemStatus::Logrono
             },
@@ -474,6 +474,13 @@ impl Item {
                 description: "50 flex p92",
                 price: 80.0,
                 status: ItemStatus::Vendido
+            },
+            Item {
+                image_url: "https://siamster.com/img/rightSticks/bauer2NPro.jpeg",
+                name: "Bauer Nexus 2n Pro",
+                description: "55 flex p92",
+                price: 130.0,
+                status: ItemStatus::Logrono
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/warriorQRE50_40flex.jpg",
@@ -587,6 +594,13 @@ impl Item {
                 price: 175.0,
                 status: ItemStatus::Vendido
             },
+            Item {
+                image_url: "https://siamster.com/img/leftSticks/bauerCustom.jpeg",
+                name: "Bauer Nexus Custom",
+                description: "70 flex p92",
+                price: 160.0,
+                status: ItemStatus::Logrono,
+            },
         ]
     }
 
@@ -602,9 +616,9 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/rightSticks/nexus3N.png",
                 name: "Bauer Nexus N3",
-                description: "55 flex p92",
+                description: "55 flex p92 (2ud)",
                 price: 80.0,
-                status: ItemStatus::Vendido,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/nexusNSX.png",
@@ -612,6 +626,20 @@ impl Item {
                 description: "60 Flex p92",
                 price: 60.0,
                 status: ItemStatus::Vendido,
+            },
+            Item {
+                image_url: "https://siamster.com/img/rightSticks/hyperlite2.jpg.webp",
+                name: "Bauer HyperLite 2",
+                description: "55 flex p90",
+                price: 190.0,
+                status: ItemStatus::Logrono,
+            },
+            Item {
+                image_url: "https://siamster.com/img/rightSticks/warriorAlphaDX5.jpg",
+                name: "Warrior Alpha DX5",
+                description: "40 flex p92",
+                price: 65.0,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/bauerProto.png",
@@ -623,9 +651,9 @@ impl Item {
             Item {
                 image_url: "https://siamster.com/img/leftSticks/bauerCustom.jpeg",
                 name: "Bauer Nexus Custom",
-                description: "77 flex p92",
+                description: "77 flex p92, 70 flex p92",
                 price: 160.0,
-                status: ItemStatus::Vendido,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/bauerNexusTracer.png",
