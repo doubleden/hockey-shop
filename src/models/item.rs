@@ -618,7 +618,7 @@ impl Item {
                 name: "Bauer Nexus N3",
                 description: "55 flex p92 ",
                 price: 95.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/leftSticks/nexusNSX.png",
