@@ -157,7 +157,7 @@ impl Item {
                 name: "Bauer X",
                 description: "Talla 13",
                 price: 30.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "https://siamster.com/img/protection/kragiCcmAS580.png",
