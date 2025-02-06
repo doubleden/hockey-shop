@@ -194,7 +194,7 @@ impl Item {
                 name: "Bauer Ims 5.0",
                 description: "talla señor M",
                 price: 80.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
 
             // Трусы
@@ -473,14 +473,14 @@ impl Item {
                 name: "Bauer Nexus 2n pro shadow line",
                 description: "50 flex p92",
                 price: 80.0,
-                status: ItemStatus::Vendido
+                status: ItemStatus::Logrono
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/bauer2NPro.jpeg",
                 name: "Bauer Nexus 2n Pro",
                 description: "55 flex p92",
                 price: 130.0,
-                status: ItemStatus::Logrono
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/warriorQRE50_40flex.jpg",
