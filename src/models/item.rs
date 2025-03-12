@@ -90,7 +90,7 @@ impl Item {
                 name: "True XC9",
                 description: "talla 12",
                 price: 80.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "/images/protection/koleniBauerX.jpg",
@@ -171,7 +171,7 @@ impl Item {
             Item {
                 image_url: "/images/protection/shlemTacks70.JPG",
                 name: "CCM Tacks  70",
-                description: "talla sr S",
+                description: "talla sr S (2 ud)",
                 price: 95.0,
                 status: ItemStatus::Logrono,
             },
@@ -268,14 +268,14 @@ impl Item {
             Item {
                 image_url: "/images/protection/butilka.png",
                 name: "Botella sherwood",
-                description: "2 ud",
+                description: "1 ud",
                 price: 9.0,
                 status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "/images/protection/shurki.jpg",
                 name: "Cordones",
-                description: "Blanco (2ud 330cm); Negro (1ud, 305cm)",
+                description: "Blanco (1ud 330cm); Negro (1ud, 305cm)",
                 price: 8.0,
                 status: ItemStatus::Logrono,
             },
