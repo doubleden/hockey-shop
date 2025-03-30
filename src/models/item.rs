@@ -53,7 +53,7 @@ impl Item {
                 name: "Warrior DX3",
                 description: "tallas señor S",
                 price: 50.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
 
             // Колени
@@ -639,7 +639,7 @@ impl Item {
                 name: "Warrior Alpha DX5",
                 description: "40 flex p92",
                 price: 65.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/bauerProto.png",
