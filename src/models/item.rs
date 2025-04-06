@@ -32,21 +32,21 @@ impl Item {
                 name: "AS-v pro",
                 description: "talla señor S",
                 price: 95.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "/images/protection/loktiASV.JPG",
                 name: "AS-v pro",
                 description: "talla señor S",
                 price: 95.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "/images/protection/loktiAS580.jpeg",
                 name: "As580",
                 description: "tallas señor S",
                 price: 80.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "/images/protection/loktiWarriorDX3.jpg",
@@ -120,7 +120,7 @@ impl Item {
                 name: "Warrior Alpha",
                 description: "talla SR X-Small",
                 price: 65.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "/images/protection/grudCCMV04.jpeg",
@@ -187,7 +187,7 @@ impl Item {
                 name: "Bauer Reakt 55 con mascara",
                 description: "talla señor L",
                 price: 100.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "/images/protection/shlemIMS5.jpeg",
@@ -270,14 +270,14 @@ impl Item {
                 name: "Botella sherwood",
                 description: "1 ud",
                 price: 9.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "/images/protection/shurki.jpg",
                 name: "Cordones",
                 description: "Blanco (1ud 330cm); Negro (1ud, 305cm)",
                 price: 8.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
 
             // Коньки
@@ -321,7 +321,7 @@ impl Item {
                 name: "Bermudas",
                 description: "S",
                 price: 35.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
         ];
     }
@@ -417,7 +417,7 @@ impl Item {
                 name: "Bauer Nexus n37",
                 description: "65 flex p92",
                 price: 70.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/flyLite70.jpg.jpeg",
@@ -464,7 +464,7 @@ impl Item {
             Item {
                 image_url: "images/sticks/nexusGeo.jpg",
                 name: "Bauer Nexus Geo",
-                description: "50 flex p92, 40 flex p92",
+                description: "50 flex p92",
                 price: 110.0,
                 status: ItemStatus::Logrono
             },
@@ -473,7 +473,7 @@ impl Item {
                 name: "Bauer Nexus 2n pro shadow line",
                 description: "50 flex p92",
                 price: 80.0,
-                status: ItemStatus::Logrono
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "images/sticks/bauer2NPro.jpeg",
@@ -529,7 +529,7 @@ impl Item {
                 name: "Warrior QRL",
                 description: "50 flex p92",
                 price: 60.0,
-                status: ItemStatus::Logrono
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "https://siamster.com/img/rightSticks/warriorGrey.JPG",
@@ -632,7 +632,7 @@ impl Item {
                 name: "Bauer HyperLite 2",
                 description: "55 flex p90",
                 price: 190.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/warriorAlphaDX5.jpg",
@@ -791,7 +791,7 @@ impl Item {
                 name: "Bauer HyperLite 2",
                 description: "26inc P31 Left",
                 price: 250.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/portero/mach.jpeg",
