@@ -347,35 +347,35 @@ impl Item {
                 name: "Bauer Nexus N2900",
                 description: "65 flex p92",
                 price: 60.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/ccmJetspeedFT1.jpeg",
                 name: "CCM Jetspeed FT1",
                 description: "75 flex p29",
                 price: 80.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/Vapor3X.jpeg",
                 name: "Bauer 3x",
                 description: "77 flex p28",
                 price: 100.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/2sProShadow.jpg",
                 name: "Bauer 2S pro shadow line",
                 description: "87 flex p28",
                 price: 110.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/VaporX4.jpg",
                 name: "Bauer Vapor x4",
                 description: "77 flex p28",
                 price: 120.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/bauerSupreme3S.png",
@@ -389,7 +389,7 @@ impl Item {
                 name: "Bauer Sling",
                 description: "87 flex p92",
                 price: 125.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/HyperLite55.jpg",
@@ -410,7 +410,7 @@ impl Item {
                 name: "Bauer Vapor HiperLite2",
                 description: "87 flex p92",
                 price: 185.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/Nexusn37.jpg.jpeg",
@@ -424,7 +424,7 @@ impl Item {
                 name: "Bauer FlyLite",
                 description: "70 flex P92",
                 price: 120.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/vaporX2.7.jpeg",
@@ -459,7 +459,7 @@ impl Item {
                 name: "Bauer 1X Lite",
                 description: "67 flex P88",
                 price: 75.0,
-                status: ItemStatus::Disponible
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "images/sticks/nexusGeo.jpg",
@@ -494,35 +494,35 @@ impl Item {
                 name: "Warrior Dynasty x3",
                 description: "70 flex curva Kopitar",
                 price: 60.0,
-                status: ItemStatus::Disponible
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "images/sticks/warriorQRE20_55flex.jpg.jpeg",
                 name: "Warrior QRE 20 pro",
                 description: "55 Flex W28",
                 price: 85.0,
-                status: ItemStatus::Disponible
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "images/sticks/warriorQRE40_40flex.jpg",
                 name: "Warrior QRE 40",
                 description: "40 flex p92",
                 price: 55.0,
-                status: ItemStatus::Disponible
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "images/sticks/warriorAlphaDX.png",
                 name: "Warrior Alpha Dx",
                 description: "65 flex W28",
                 price: 120.0,
-                status: ItemStatus::Disponible
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "images/sticks/warriorAlphaQX3_55flex.jpg.jpeg",
                 name: "Warrior Alpha Qx3",
                 description: "55flex p92",
                 price: 55.0,
-                status: ItemStatus::Disponible
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "images/sticks/warriorQRL.jpg.webp",
@@ -532,18 +532,11 @@ impl Item {
                 status: ItemStatus::Vendido
             },
             Item {
-                image_url: "https://siamster.com/img/rightSticks/warriorGrey.JPG",
-                name: "Warrior Gris",
-                description: "p92 70flex Int",
-                price: 50.0,
-                status: ItemStatus::Vendido
-            },
-            Item {
                 image_url: "images/sticks/trueXC5.jpg",
                 name: "True Xc5",
                 description: "58 flex p92",
                 price: 55.0,
-                status: ItemStatus::Disponible
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "images/sticks/eastonSynergy.jpg",
@@ -578,7 +571,7 @@ impl Item {
                 name: "True Xc7",
                 description: "75 flex TC2T(3ud),TC4T(4ud); 85 flex TC2T(ud1), TC4T(ud1)",
                 price: 100.0,
-                status: ItemStatus::Disponible
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "images/sticks/trueXC7.jpg",
@@ -630,9 +623,9 @@ impl Item {
             Item {
                 image_url: "images/sticks/hyperlite2.jpg.webp",
                 name: "Bauer HyperLite 2",
-                description: "55 flex p90",
-                price: 190.0,
-                status: ItemStatus::Vendido,
+                description: "50 flex p92M",
+                price: 150.0,
+                status: ItemStatus::Disponible,
             },
             Item {
                 image_url: "images/sticks/warriorAlphaDX5.jpg",
@@ -670,18 +663,25 @@ impl Item {
                 status: ItemStatus::Vendido,
             },
             Item {
+                image_url: "images/sticks/bauerNexusE50Pro.jpg",
+                name: "Bauer Nexus E.50 Pro",
+                description: "70 flex p28",
+                price: 175.0,
+                status: ItemStatus::Disponible,
+            },
+            Item {
                 image_url: "images/sticks/HyperLite55.jpg",
-                name: "Bauer HyperLite",
-                description: "87 flex p28",
-                price: 140.0,
-                status: ItemStatus::Vendido,
+                name: "Bauer HyperLite 2",
+                description: "77 flex p92M",
+                price: 200.0,
+                status: ItemStatus::Disponible,
             },
             Item {
                 image_url: "images/sticks/flyLite70.jpg.jpeg",
                 name: "Bauer Fly Lite",
                 description: "102 flex p28",
                 price: 120.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/warriorQRE50_40flex.jpg",
@@ -698,11 +698,32 @@ impl Item {
                 status: ItemStatus::Vendido,
             },
             Item {
+                image_url: "images/sticks/warriorNovium2SpSr.jpg",
+                name: "Warrior Novium 2",
+                description: "75 flex p92 (2 ud)",
+                price: 150.0,
+                status: ItemStatus::Disponible,
+            },
+            Item {
+                image_url: "images/sticks/warriorNovium2SpSr.jpg",
+                name: "Warrior Novium 2",
+                description: "65 flex p92 (2 ud)",
+                price: 110.0,
+                status: ItemStatus::Disponible,
+            },
+            Item {
+                image_url: "images/sticks/warriorNovium2SPJR.jpg.webp",
+                name: "Warrior Novium 2",
+                description: "50 flex p92 (2 ud)",
+                price: 90.0,
+                status: ItemStatus::Disponible,
+            },
+            Item {
                 image_url: "images/sticks/warriorAlpha_65flex.png",
                 name: "Warrior Alpha",
                 description: "65 flex w88",
                 price: 75.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/warriorCovert.png",
@@ -730,7 +751,7 @@ impl Item {
                 name: "Warrior Alpha LX2 Pro",
                 description: "75 flex p92",
                 price: 200.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/eastonSynergy.jpg",
@@ -751,7 +772,7 @@ impl Item {
                 name: "Easton Synergy GX",
                 description: "100 flex E3",
                 price: 90.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/trueXC7.jpg",
