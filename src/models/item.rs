@@ -217,7 +217,7 @@ impl Item {
                 name: "Bauer ACP Elite (transformer)",
                 description: "talla intermedium L",
                 price: 95.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "/images/protection/trusN7000.JPG",
@@ -261,7 +261,7 @@ impl Item {
                 name: "Bolso Ccm pro team bag",
                 description: "sin ruedas",
                 price: 90.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
 
             // Акссесуары
@@ -840,7 +840,7 @@ impl Item {
                 name: "Bauer Blocker y Catcher",
                 description: "Sr",
                 price: 350.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
         ]
     }
@@ -852,14 +852,14 @@ impl Item {
                 name: "Bauer Vapor 3xPro",
                 description: "talla 8 fit 2",
                 price: 580.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/linea/vapor3x.jpg",
                 name: "Bauer Vapor 3x",
                 description: "tallas 7 fit 2; 7.5 fit 2; 8 fit 2",
                 price: 390.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
         ]
     }
