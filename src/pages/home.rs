@@ -11,11 +11,11 @@ pub fn Home() -> impl IntoView {
 
                 <picture class="mainIMG">
                     <source
-                        srcset="images/logo.jpeg"
+                        srcset="images/logo.png"
                         media="(prefers-color-scheme: dark)"
                     />
                     <img
-                        src="images/logo.jpeg"
+                        src="images/logo.png"
                         alt="Shop Logo"
                         height="150"
                         width="150"
