@@ -261,7 +261,7 @@ impl Item {
                 name: "Bolso de palos para equipo con ruedas",
                 description: "",
                 price: 70.0,
-                status: ItemStatus::Vendido,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "/images/protection/sumkaSherwoodSilver.jpg",
@@ -284,14 +284,14 @@ impl Item {
                 name: "Botella sherwood",
                 description: "5 ud",
                 price: 9.0,
-                status: ItemStatus::Vendido,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "/images/protection/shurki.jpg",
                 name: "Cordones",
                 description: "",
                 price: 8.0,
-                status: ItemStatus::Vendido,
+                status: ItemStatus::Logrono,
             },
 
             // Коньки
@@ -602,7 +602,7 @@ impl Item {
                 status: ItemStatus::Logrono
             },
             Item {
-                image_url: "images/sticks/easton750.jpg",
+                image_url: "images/sticks/easton450.jpg",
                 name: "Easton 750",
                 description: "85 flex p92",
                 price: 50.0,
@@ -796,7 +796,7 @@ impl Item {
                 status: ItemStatus::Vendido,
             },
             Item {
-                image_url: "images/sticks/warriorQRE30.png",
+                image_url: "images/sticks/warriorQRE30.jpg",
                 name: "Warrior QRE30",
                 description: "55 flex p92",
                 price: 80.0,
@@ -920,7 +920,7 @@ impl Item {
                 status: ItemStatus::Vendido,
             },
             Item {
-                image_url: "images/portero/bauerKonekt2.jpg",
+                image_url: "images/portero/bauerKonekt2.jpeg",
                 name: "Konekt2",
                 description: "9-9.5",
                 price: 750.0,
