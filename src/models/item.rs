@@ -44,9 +44,9 @@ impl Item {
             Item {
                 image_url: "/images/protection/loktiAS580.jpeg",
                 name: "As580",
-                description: "tallas señor S",
-                price: 80.0,
-                status: ItemStatus::Vendido,
+                description: "tallas Jr L",
+                price: 60.0,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "/images/protection/loktiWarriorDX3.jpg",
@@ -95,9 +95,9 @@ impl Item {
             Item {
                 image_url: "/images/protection/koleniBauerX.jpg",
                 name: "Bauer X",
-                description: "talla 13",
+                description: "talla 12",
                 price: 60.0,
-                status: ItemStatus::Vendido,
+                status: ItemStatus::Logrono,
             },
 
             // Грудь
@@ -142,8 +142,8 @@ impl Item {
                 image_url: "/images/protection/kragiBauerX.jpg",
                 name: "Bauer X",
                 description: "Tallas 12",
-                price: 70.0,
-                status: ItemStatus::Vendido,
+                price: 65.0,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "/images/protection/kragiBauerX.jpg",
@@ -196,6 +196,13 @@ impl Item {
                 price: 80.0,
                 status: ItemStatus::Vendido,
             },
+            Item {
+                image_url: "/images/protection/visor_maska.jpg",
+                name: "CCM FV1 Visor-Mascara",
+                description: "talla jr S",
+                price: 75.0,
+                status: ItemStatus::Logrono,
+            },
 
             // Трусы
             Item {
@@ -208,9 +215,16 @@ impl Item {
             Item {
                 image_url: "/images/protection/trusAS580.JPG",
                 name: "CCM AS 580",
-                description: "talla señor M",
-                price: 95.0,
-                status: ItemStatus::Vendido,
+                description: "talla Jr M",
+                price: 100.0,
+                status: ItemStatus::Logrono,
+            },
+            Item {
+                image_url: "/images/protection/trusAS580.JPG",
+                name: "CCM AS 580",
+                description: "talla Jr L",
+                price: 110.0,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "/images/protection/trusACP.JPG",
@@ -268,14 +282,14 @@ impl Item {
             Item {
                 image_url: "/images/protection/butilka.png",
                 name: "Botella sherwood",
-                description: "1 ud",
+                description: "5 ud",
                 price: 9.0,
                 status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "/images/protection/shurki.jpg",
                 name: "Cordones",
-                description: "Blanco (1ud 330cm); Negro (1ud, 305cm)",
+                description: "",
                 price: 8.0,
                 status: ItemStatus::Vendido,
             },
@@ -319,9 +333,37 @@ impl Item {
             Item {
                 image_url: "/images/protection/termoOrange.jpeg",
                 name: "Bermudas",
-                description: "S",
+                description: "XS; S; M; L ud2; XL ud2",
                 price: 35.0,
-                status: ItemStatus::Vendido,
+                status: ItemStatus::Logrono,
+            },
+            Item {
+                image_url: "/images/protection/bauerTermo.jpg",
+                name: "Termo Bauer",
+                description: "S; M",
+                price: 40.0,
+                status: ItemStatus::Logrono,
+            },
+            Item {
+                image_url: "/images/protection/sherwoodNeckGuard.jpg",
+                name: "Neck Guard Sherwood",
+                description: "",
+                price: 12.0,
+                status: ItemStatus::Logrono,
+            },
+            Item {
+                image_url: "/images/protection/plasticSkateProtection.jpg",
+                name: "Skate Protection plastic",
+                description: "",
+                price: 10.0,
+                status: ItemStatus::Logrono,
+            },
+            Item {
+                image_url: "/images/protection/textileSkateProtection.jpg",
+                name: "Skate Protection textile",
+                description: "",
+                price: 10.0,
+                status: ItemStatus::Logrono,
             },
         ];
     }
@@ -438,7 +480,7 @@ impl Item {
                 name: "Bauer Sling",
                 description: "55 flex p92",
                 price: 130.0,
-                status: ItemStatus::Logrono
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "images/sticks/ultraSonic.jpg",
@@ -560,6 +602,13 @@ impl Item {
                 status: ItemStatus::Logrono
             },
             Item {
+                image_url: "images/sticks/easton750.jpg",
+                name: "Easton 750",
+                description: "85 flex p92",
+                price: 50.0,
+                status: ItemStatus::Logrono
+            },
+            Item {
                 image_url: "images/sticks/CCMAS1.jpg",
                 name: "CCM Tacks AS1",
                 description: "75 flex curva custom 5",
@@ -594,6 +643,13 @@ impl Item {
                 price: 160.0,
                 status: ItemStatus::Logrono,
             },
+            Item {
+                image_url: "images/sticks/warriorCustom.JPG",
+                name: "Warrior Custom de Yakupov",
+                description: "85 flex p custom",
+                price: 60.0,
+                status: ItemStatus::Logrono,
+            },
         ]
     }
 
@@ -623,9 +679,23 @@ impl Item {
             Item {
                 image_url: "images/sticks/hyperlite2.jpg.webp",
                 name: "Bauer HyperLite 2",
-                description: "50 flex p92M",
+                description: "40 flex p92",
+                price: 130.0,
+                status: ItemStatus::Logrono,
+            },
+            Item {
+                image_url: "images/sticks/hyperlite2.jpg.webp",
+                name: "Bauer HyperLite 2",
+                description: "50 flex p92",
                 price: 150.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Logrono,
+            },
+            Item {
+                image_url: "images/sticks/hyperlite2.jpg.webp",
+                name: "Bauer HyperLite 2",
+                description: "55 flex p90M",
+                price: 180.0,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "images/sticks/warriorAlphaDX5.jpg",
@@ -639,7 +709,7 @@ impl Item {
                 name: "Bauer Proto",
                 description: "65 flex 90tm ",
                 price: 195.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/bauerCustom.jpeg",
@@ -667,14 +737,14 @@ impl Item {
                 name: "Bauer Nexus E.50 Pro",
                 description: "70 flex p28",
                 price: 175.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/HyperLite55.jpg",
                 name: "Bauer HyperLite 2",
                 description: "77 flex p92M",
                 price: 200.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/flyLite70.jpg.jpeg",
@@ -700,23 +770,23 @@ impl Item {
             Item {
                 image_url: "images/sticks/warriorNovium2SpSr.jpg",
                 name: "Warrior Novium 2",
-                description: "75 flex p92 (2 ud)",
+                description: "75 flex p92",
                 price: 150.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "images/sticks/warriorNovium2SpSr.jpg",
                 name: "Warrior Novium 2",
-                description: "65 flex p92 (2 ud)",
+                description: "65 flex p92",
                 price: 110.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/warriorNovium2SPJR.jpg.webp",
                 name: "Warrior Novium 2",
                 description: "50 flex p92 (2 ud)",
                 price: 90.0,
-                status: ItemStatus::Disponible,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "images/sticks/warriorAlpha_65flex.png",
@@ -724,6 +794,13 @@ impl Item {
                 description: "65 flex w88",
                 price: 75.0,
                 status: ItemStatus::Vendido,
+            },
+            Item {
+                image_url: "images/sticks/warriorQRE30.png",
+                name: "Warrior QRE30",
+                description: "55 flex p92",
+                price: 80.0,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "images/sticks/warriorCovert.png",
@@ -830,10 +907,10 @@ impl Item {
             },
             Item {
                 image_url: "images/portero/vpor3X.jpg.webp",
-                name: "Bauer Vapor 3X",
-                description: "25inc P31 left",
-                price: 130.0,
-                status: ItemStatus::Vendido,
+                name: "Bauer Vapor 3X Jr",
+                description: "21inc P31 left",
+                price: 120.0,
+                status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "images/portero/blinAndLovushka.jpg",
@@ -841,6 +918,20 @@ impl Item {
                 description: "Sr",
                 price: 350.0,
                 status: ItemStatus::Vendido,
+            },
+            Item {
+                image_url: "images/portero/bauerKonekt2.jpg",
+                name: "Konekt2",
+                description: "9-9.5",
+                price: 750.0,
+                status: ItemStatus::Reservado,
+            },
+            Item {
+                image_url: "images/portero/bauerCatcherBlocker.jpg",
+                name: "Bauer Blocker y Catcher",
+                description: "Jr",
+                price: 250.0,
+                status: ItemStatus::Logrono,
             },
         ]
     }
