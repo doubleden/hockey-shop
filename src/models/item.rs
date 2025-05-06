@@ -910,7 +910,7 @@ impl Item {
                 name: "Bauer Vapor 3X Jr",
                 description: "21inc P31 left",
                 price: 120.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/portero/blinAndLovushka.jpg",
@@ -931,7 +931,7 @@ impl Item {
                 name: "Bauer Blocker y Catcher",
                 description: "Jr",
                 price: 250.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
         ]
     }
