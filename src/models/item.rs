@@ -784,7 +784,7 @@ impl Item {
             Item {
                 image_url: "images/sticks/warriorNovium2SPJR.jpg.webp",
                 name: "Warrior Novium 2",
-                description: "50 flex p92 (2 ud)",
+                description: "50 flex p92",
                 price: 90.0,
                 status: ItemStatus::Logrono,
             },
