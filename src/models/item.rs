@@ -641,7 +641,7 @@ impl Item {
                 name: "Bauer Nexus Custom",
                 description: "70 flex p92",
                 price: 160.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/warriorCustom.JPG",
