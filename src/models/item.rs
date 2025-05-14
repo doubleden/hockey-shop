@@ -723,7 +723,7 @@ impl Item {
                 name: "Bauer Nexus Tracer",
                 description: "77 flex p92",
                 price: 195.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/bauerNexusTracer.png",
