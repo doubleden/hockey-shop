@@ -224,7 +224,7 @@ impl Item {
                 name: "CCM AS 580",
                 description: "talla Jr L",
                 price: 110.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "/images/protection/trusACP.JPG",
@@ -282,9 +282,9 @@ impl Item {
             Item {
                 image_url: "/images/protection/butilka.png",
                 name: "Botella sherwood",
-                description: "5 ud",
+                description: "2 ud",
                 price: 9.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "/images/protection/shurki.jpg",
@@ -333,21 +333,21 @@ impl Item {
             Item {
                 image_url: "/images/protection/termoOrange.jpeg",
                 name: "Bermudas",
-                description: "XS; S; M; L ud2; XL ud2",
+                description: "XS; M; L ud2; XL ud2",
                 price: 35.0,
                 status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "/images/protection/bauerTermo.jpg",
-                name: "Termo Bauer",
-                description: "S; M",
+                name: "Termo Warrior",
+                description: "M",
                 price: 40.0,
                 status: ItemStatus::Logrono,
             },
             Item {
                 image_url: "/images/protection/sherwoodNeckGuard.jpg",
                 name: "Neck Guard Sherwood",
-                description: "",
+                description: "2ud",
                 price: 12.0,
                 status: ItemStatus::Logrono,
             },
@@ -688,7 +688,7 @@ impl Item {
                 name: "Bauer HyperLite 2",
                 description: "50 flex p92",
                 price: 150.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/sticks/hyperlite2.jpg.webp",
