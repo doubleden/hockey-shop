@@ -590,9 +590,9 @@ impl Item {
             Item {
                 image_url: "images/sticks/easton450.jpg",
                 name: "Easton 450",
-                description: "65 flex p92",
-                price: 50.0,
-                status: ItemStatus::Logrono
+                description: "85 flex p92",
+                price: 60.0,
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "images/sticks/easton450.jpg",
@@ -613,7 +613,7 @@ impl Item {
                 name: "CCM Tacks AS1",
                 description: "75 flex curva custom 5",
                 price: 100.0,
-                status: ItemStatus::Logrono
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "images/sticks/trueXC7.jpg",
@@ -714,7 +714,7 @@ impl Item {
             Item {
                 image_url: "images/sticks/bauerCustom.jpeg",
                 name: "Bauer Nexus Custom",
-                description: "77 flex p92, 70 flex p92",
+                description: "77 flex p92",
                 price: 160.0,
                 status: ItemStatus::Logrono,
             },
