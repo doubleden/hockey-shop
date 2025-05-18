@@ -599,14 +599,14 @@ impl Item {
                 name: "Easton 450",
                 description: "85 flex p92",
                 price: 60.0,
-                status: ItemStatus::Logrono
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "images/sticks/easton450.jpg",
                 name: "Easton 750",
                 description: "85 flex p92",
                 price: 50.0,
-                status: ItemStatus::Logrono
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "images/sticks/CCMAS1.jpg",
@@ -627,7 +627,7 @@ impl Item {
                 name: "True Xc7",
                 description: "75 flex TC2T(2ud)",
                 price: 100.0,
-                status: ItemStatus::Logrono
+                status: ItemStatus::Vendido
             },
             Item {
                 image_url: "images/sticks/ribcor8.jpg",
@@ -648,7 +648,7 @@ impl Item {
                 name: "Warrior Custom de Yakupov",
                 description: "85 flex p custom",
                 price: 60.0,
-                status: ItemStatus::Logrono,
+                status: ItemStatus::Vendido,
             },
         ]
     }
@@ -714,7 +714,7 @@ impl Item {
             Item {
                 image_url: "images/sticks/bauerCustom.jpeg",
                 name: "Bauer Nexus Custom",
-                description: "77 flex p92",
+                description: "70 flex p92",
                 price: 160.0,
                 status: ItemStatus::Logrono,
             },
