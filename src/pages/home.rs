@@ -22,17 +22,17 @@ pub fn Home() -> impl IntoView {
                     />
                 </picture>
                 <div class="collection">
-                    <h2>"Protection"</h2>
+                    <h2 class="sticky-header">"Protection"</h2>
                     <div>
                         <CollectionOfProduct products=Item::get_protections() />
                     </div>
 
-                    <h2>"Palos Diestro"</h2>
+                    <h2 class="sticky-header">"Palos Diestro"</h2>
                     <div>
                         <CollectionOfProduct products=Item::get_right_sticks() />
                     </div>
 
-                    <h2>"Palos Zurdo"</h2>
+                    <h2 class="sticky-header">"Palos Zurdo"</h2>
                     <div>
                         <CollectionOfProduct products=Item::get_left_sticks() />
                     </div>

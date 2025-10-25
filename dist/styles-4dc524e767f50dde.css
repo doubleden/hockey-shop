@@ -34,6 +34,15 @@ body {
   justify-content: center;
 }
 
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .product-item {
   border: 1px solid #ddd;
   padding: 10px;
