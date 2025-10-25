@@ -27,24 +27,14 @@ pub fn Home() -> impl IntoView {
                         <CollectionOfProduct products=Item::get_protections() />
                     </div>
 
-                    <h2>"Palos Derecha"</h2>
+                    <h2>"Palos Diestro"</h2>
                     <div>
                         <CollectionOfProduct products=Item::get_right_sticks() />
                     </div>
 
-                    <h2>"Palos Izquierda"</h2>
+                    <h2>"Palos Zurdo"</h2>
                     <div>
                         <CollectionOfProduct products=Item::get_left_sticks() />
-                    </div>
-
-                    <h2>"Portero"</h2>
-                    <div>
-                        <CollectionOfProduct products=Item::get_portero() />
-                     </div>
-
-                    <h2>"Línea"</h2>
-                    <div>
-                        <CollectionOfProduct products=Item::get_linea() />
                     </div>
                 </div>
             </div>

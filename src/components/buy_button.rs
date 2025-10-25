@@ -4,13 +4,13 @@ use crate::models::item::ItemStatus;
 
 #[component]
 pub fn WhatsappButton(item: Item) -> impl IntoView {
-    const PHONE_NUMBER: &str = "79160518106";
+    const PHONE_NUMBER: &str = "79147709807";
     let disponible_message = format!(
-        "Hola, quiero comprar {} {} {} {}", item.name, item.description, item.price, item.image_url
+        "Hola, quiero comprar\n\n{}\n{}\n{}€\nhttps://todohockey.vercel.app{}", item.name, item.description, item.price, item.image_url
     );
 
     let ordenar_message = format!(
-        "Hola, quiero comprar {} {} {} {}", item.name, item.description, item.price, item.image_url
+        "Hola, quiero comprar\n\n{}\n{}\n{}€\nhttps://todohockey.vercel.app{}", item.name, item.description, item.price, item.image_url
     );
 
     let (button_text, whatsapp_url) = match item.status {
