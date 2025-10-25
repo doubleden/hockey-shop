@@ -650,13 +650,13 @@ impl Item {
             //     price: 160.0,
             //     status: ItemStatus::Vendido,
             // },
-            // Item {
-            //     image_url: "images/sticks/bauerNexusSync.jpg",
-            //     name: "Bauer Nexus Sync",
-            //     description: "77 flex p92",
-            //     price: 150.0,
-            //     status: ItemStatus::Disponible,
-            // },
+            Item {
+                image_url: "images/sticks/bauerNexusSync.jpg",
+                name: "Bauer Nexus Sync",
+                description: "77 flex p92",
+                price: 150.0,
+                status: ItemStatus::Disponible,
+            },
             Item {
                 image_url: "images/sticks/bauerAg5nt.jpg",
                 name: "Bauer AG5NT",
@@ -884,7 +884,7 @@ impl Item {
                 name: "Warrior Alpha LX2 Pro",
                 description: "75 flex p92",
                 price: 200.0,
-                status: ItemStatus::Vendido,
+                status: ItemStatus::Disponible,
             },
             // Item {
             //     image_url: "images/sticks/eastonSynergy.jpg",
