@@ -924,7 +924,7 @@ impl Item {
                 name: "Konekt2",
                 description: "9-9.5",
                 price: 750.0,
-                status: ItemStatus::Reservado,
+                status: ItemStatus::Vendido,
             },
             Item {
                 image_url: "images/portero/bauerCatcherBlocker.jpg",
