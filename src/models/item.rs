@@ -21,7 +21,7 @@ impl Item {
 
             // Локти 
             Item {
-                image_url: "/images/protection/loktiBauerNSX.JPG",
+                image_url: "images/protection/loktiBauerNSX.JPG",
                 name: "Bauer NSX",
                 description: "talla Jr S",
                 price: 40.0,
@@ -42,7 +42,7 @@ impl Item {
             //     status: ItemStatus::Vendido,
             // },
             Item {
-                image_url: "/images/protection/loktiAS580.jpeg",
+                image_url: "images/protection/loktiAS580.jpeg",
                 name: "As580",
                 description: "tallas Jr L",
                 price: 60.0,
@@ -65,14 +65,14 @@ impl Item {
             //     status: ItemStatus::Vendido,
             // },
             Item {
-                image_url: "/images/protection/koleniWarrior.JPG",
+                image_url: "images/protection/koleniWarrior.JPG",
                 name: "Warrior Alpha QX",
                 description: "talla niños 9",
                 price: 40.0,
                 status: ItemStatus::Disponible,
             },
             Item {
-                image_url: "/images/protection/koleniBauerSupreme2SPro.jpg",
+                image_url: "images/protection/koleniBauerSupreme2SPro.jpg",
                 name: "Bauer Supreme 2S Pro",
                 description: "talla 9",
                 price: 60.0,
@@ -93,7 +93,7 @@ impl Item {
             //     status: ItemStatus::Vendido,
             // },
             Item {
-                image_url: "/images/protection/koleniBauerX.jpg",
+                image_url: "images/protection/koleniBauerX.jpg",
                 name: "Bauer X",
                 description: "talla 12",
                 price: 60.0,
@@ -109,7 +109,7 @@ impl Item {
             //     status: ItemStatus::Vendido,
             // },
             Item {
-                image_url: "/images/protection/grudWarriorDX3.jpg",
+                image_url: "images/protection/grudWarriorDX3.jpg",
                 name: "Warrior DX3",
                 description: "talla jr L",
                 price: 70.0,
@@ -123,7 +123,7 @@ impl Item {
             //     status: ItemStatus::Vendido,
             // },
             Item {
-                image_url: "/images/protection/grudCCMV04.jpeg",
+                image_url: "images/protection/grudCCMV04.jpeg",
                 name: "CCM V04",
                 description: "talla JR M",
                 price: 65.0,
@@ -139,14 +139,14 @@ impl Item {
 
             //Краги
             Item {
-                image_url: "/images/protection/kragiBauerX.jpg",
+                image_url: "images/protection/kragiBauerX.jpg",
                 name: "Bauer X",
                 description: "Tallas 12",
                 price: 65.0,
                 status: ItemStatus::Disponible,
             },
             Item {
-                image_url: "/images/protection/kragiBauerX.jpg",
+                image_url: "images/protection/kragiBauerX.jpg",
                 name: "Bauer X",
                 description: "Talla 9",
                 price: 45.0,
@@ -160,7 +160,7 @@ impl Item {
             //     status: ItemStatus::Vendido,
             // },
             Item {
-                image_url: "/images/protection/kragiCcmAS580.png",
+                image_url: "images/protection/kragiCcmAS580.png",
                 name: "CCM AS 580",
                 description: "Talla señor 14",
                 price: 130.0,
@@ -169,14 +169,14 @@ impl Item {
 
             //Шлема
             Item {
-                image_url: "/images/protection/shlemTacks70.JPG",
+                image_url: "images/protection/shlemTacks70.JPG",
                 name: "CCM Tacks  70",
                 description: "talla sr S (2 ud)",
                 price: 95.0,
                 status: ItemStatus::Disponible,
             },
             Item {
-                image_url: "/images/protection/shlemReact65.JPG",
+                image_url: "images/protection/shlemReact65.JPG",
                 name: "Bauer Reakt 65 con mascara",
                 description: "talla señor S",
                 price: 140.0,
@@ -197,7 +197,7 @@ impl Item {
             //     status: ItemStatus::Vendido,
             // },
             Item {
-                image_url: "/images/protection/visor_maska.jpg",
+                image_url: "images/protection/visor_maska.jpg",
                 name: "CCM FV1 Visor-Mascara",
                 description: "talla jr S",
                 price: 75.0,
@@ -213,7 +213,7 @@ impl Item {
             //     status: ItemStatus::Vendido,
             // },
             Item {
-                image_url: "/images/protection/trusAS580.JPG",
+                image_url: "images/protection/trusAS580.JPG",
                 name: "CCM AS 580",
                 description: "talla Jr M",
                 price: 100.0,
@@ -257,7 +257,7 @@ impl Item {
             //     status: ItemStatus::Vendido,
             // },
             Item {
-                image_url: "/images/protection/sumkaKlush.jpg",
+                image_url: "images/protection/sumkaKlush.jpg",
                 name: "Bolso de palos para equipo con ruedas",
                 description: "",
                 price: 70.0,
@@ -287,7 +287,7 @@ impl Item {
             //     status: ItemStatus::Vendido,
             // },
             Item {
-                image_url: "/images/protection/shurki.jpg",
+                image_url: "images/protection/shurki.jpg",
                 name: "Cordones",
                 description: "",
                 price: 8.0,
@@ -303,7 +303,7 @@ impl Item {
             //     status: ItemStatus::Vendido,
             // },
             Item {
-                image_url: "/images/protection/konBauerXLP.png",
+                image_url: "images/protection/konBauerXLP.png",
                 name: "Bauer XLP",
                 description: "talla Y12",
                 price: 95.0,
@@ -331,35 +331,35 @@ impl Item {
             //     status: ItemStatus::Vendido,
             // },
             Item {
-                image_url: "/images/protection/termoOrange.jpeg",
+                image_url: "images/protection/termoOrange.jpeg",
                 name: "Bermudas",
                 description: "XS; M; L ud2; XL ud2",
                 price: 35.0,
                 status: ItemStatus::Disponible,
             },
             Item {
-                image_url: "/images/protection/bauerTermo.jpg",
+                image_url: "images/protection/bauerTermo.jpg",
                 name: "Termo Warrior",
                 description: "M",
                 price: 40.0,
                 status: ItemStatus::Disponible,
             },
             Item {
-                image_url: "/images/protection/sherwoodNeckGuard.jpg",
+                image_url: "images/protection/sherwoodNeckGuard.jpg",
                 name: "Neck Guard Sherwood",
                 description: "2ud",
                 price: 12.0,
                 status: ItemStatus::Disponible,
             },
             Item {
-                image_url: "/images/protection/plasticSkateProtection.jpg",
+                image_url: "images/protection/plasticSkateProtection.jpg",
                 name: "Skate Protection plastic",
                 description: "",
                 price: 10.0,
                 status: ItemStatus::Disponible,
             },
             Item {
-                image_url: "/images/protection/textileSkateProtection.jpg",
+                image_url: "images/protection/textileSkateProtection.jpg",
                 name: "Skate Protection textile",
                 description: "",
                 price: 10.0,
