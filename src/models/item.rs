@@ -85,13 +85,13 @@ impl Item {
             //     price: 80.0,
             //     status: ItemStatus::Vendido,
             // },
-            Item {
-                image_url: "/images/protection/koleniTrueXC9.png",
-                name: "True XC9",
-                description: "talla 12",
-                price: 80.0,
-                status: ItemStatus::Vendido,
-            },
+            // Item {
+            //     image_url: "/images/protection/koleniTrueXC9.png",
+            //     name: "True XC9",
+            //     description: "talla 12",
+            //     price: 80.0,
+            //     status: ItemStatus::Vendido,
+            // },
             Item {
                 image_url: "/images/protection/koleniBauerX.jpg",
                 name: "Bauer X",
@@ -129,13 +129,13 @@ impl Item {
                 price: 65.0,
                 status: ItemStatus::Disponible,
             },
-            Item {
-                image_url: "/images/protection/grudTrue.JPG",
-                name: "True Xc9",
-                description: "talla jr M",
-                price: 45.0,
-                status: ItemStatus::Vendido,
-            },
+            // Item {
+            //     image_url: "/images/protection/grudTrue.JPG",
+            //     name: "True Xc9",
+            //     description: "talla jr M",
+            //     price: 45.0,
+            //     status: ItemStatus::Vendido,
+            // },
 
             //Краги
             Item {
@@ -205,13 +205,13 @@ impl Item {
             },
 
             // Трусы
-            Item {
-                image_url: "/images/protection/trusCCMVector.jpeg",
-                name: "CCM Vector",
-                description: "talla Jr L",
-                price: 70.0,
-                status: ItemStatus::Vendido,
-            },
+            // Item {
+            //     image_url: "/images/protection/trusCCMVector.jpeg",
+            //     name: "CCM Vector",
+            //     description: "talla Jr L",
+            //     price: 70.0,
+            //     status: ItemStatus::Vendido,
+            // },
             Item {
                 image_url: "/images/protection/trusAS580.JPG",
                 name: "CCM AS 580",
@@ -263,29 +263,29 @@ impl Item {
                 price: 70.0,
                 status: ItemStatus::Disponible,
             },
-            Item {
-                image_url: "/images/protection/sumkaSherwoodSilver.jpg",
-                name: "Bolso sherwood con ruedas",
-                description: "niños",
-                price: 90.0,
-                status: ItemStatus::Vendido,
-            },
-            Item {
-                image_url: "/images/protection/sumkaCCM.JPG",
-                name: "Bolso Ccm pro team bag",
-                description: "sin ruedas",
-                price: 90.0,
-                status: ItemStatus::Vendido,
-            },
+            // Item {
+            //     image_url: "/images/protection/sumkaSherwoodSilver.jpg",
+            //     name: "Bolso sherwood con ruedas",
+            //     description: "niños",
+            //     price: 90.0,
+            //     status: ItemStatus::Vendido,
+            // },
+            // Item {
+            //     image_url: "/images/protection/sumkaCCM.JPG",
+            //     name: "Bolso Ccm pro team bag",
+            //     description: "sin ruedas",
+            //     price: 90.0,
+            //     status: ItemStatus::Vendido,
+            // },
 
-            // Акссесуары
-            Item {
-                image_url: "/images/protection/butilka.png",
-                name: "Botella sherwood",
-                description: "2 ud",
-                price: 9.0,
-                status: ItemStatus::Vendido,
-            },
+            // // Акссесуары
+            // Item {
+            //     image_url: "/images/protection/butilka.png",
+            //     name: "Botella sherwood",
+            //     description: "2 ud",
+            //     price: 9.0,
+            //     status: ItemStatus::Vendido,
+            // },
             Item {
                 image_url: "/images/protection/shurki.jpg",
                 name: "Cordones",
@@ -295,13 +295,13 @@ impl Item {
             },
 
             // Коньки
-            Item {
-                image_url: "/images/protection/konCCM4052.png",
-                name: "CCM Tacks 4052",
-                description: "talla 3",
-                price: 95.0,
-                status: ItemStatus::Vendido,
-            },
+            // Item {
+            //     image_url: "/images/protection/konCCM4052.png",
+            //     name: "CCM Tacks 4052",
+            //     description: "talla 3",
+            //     price: 95.0,
+            //     status: ItemStatus::Vendido,
+            // },
             Item {
                 image_url: "/images/protection/konBauerXLP.png",
                 name: "Bauer XLP",
@@ -309,27 +309,27 @@ impl Item {
                 price: 95.0,
                 status: ItemStatus::Disponible,
             },
-            Item {
-                image_url: "/images/protection/konNexusN2700.png",
-                name: "Bauer Nexus N2700",
-                description: "",
-                price: 105.0,
-                status: ItemStatus::Vendido,
-            },
-            Item {
-                image_url: "/images/protection/konBauerM1.png",
-                name: "Bauer M1",
-                description: "talla 2.5 D",
-                price: 120.0,
-                status: ItemStatus::Vendido,
-            },
-            Item {
-                image_url: "/images/protection/konkiCCMTacks9360.png",
-                name: "CCM SuperTacks 9460",
-                description: "talla 2 D",
-                price: 110.0,
-                status: ItemStatus::Vendido,
-            },
+            // Item {
+            //     image_url: "/images/protection/konNexusN2700.png",
+            //     name: "Bauer Nexus N2700",
+            //     description: "",
+            //     price: 105.0,
+            //     status: ItemStatus::Vendido,
+            // },
+            // Item {
+            //     image_url: "/images/protection/konBauerM1.png",
+            //     name: "Bauer M1",
+            //     description: "talla 2.5 D",
+            //     price: 120.0,
+            //     status: ItemStatus::Vendido,
+            // },
+            // Item {
+            //     image_url: "/images/protection/konkiCCMTacks9360.png",
+            //     name: "CCM SuperTacks 9460",
+            //     description: "talla 2 D",
+            //     price: 110.0,
+            //     status: ItemStatus::Vendido,
+            // },
             Item {
                 image_url: "/images/protection/termoOrange.jpeg",
                 name: "Bermudas",
@@ -370,13 +370,13 @@ impl Item {
 
     pub fn get_right_sticks() -> Vec<Item> {
         return vec![
-            Item {
-                image_url: "images/sticks/2sPro35.JPG",
-                name: "Bauer 2s pro",
-                description: "35 flex p92",
-                price: 60.0,
-                status: ItemStatus::Vendido,
-            },
+            // Item {
+            //     image_url: "images/sticks/2sPro35.JPG",
+            //     name: "Bauer 2s pro",
+            //     description: "35 flex p92",
+            //     price: 60.0,
+            //     status: ItemStatus::Vendido,
+            // },
             // Item {
             //     image_url: "images/sticks/VaporProdigy.JPG",
             //     name: "Bauer Vapor Prodigy",
@@ -405,13 +405,13 @@ impl Item {
             //     price: 100.0,
             //     status: ItemStatus::Vendido,
             // },
-            Item {
-                image_url: "images/sticks/2sProShadow.jpg",
-                name: "Bauer 2S pro shadow line",
-                description: "87 flex p28",
-                price: 110.0,
-                status: ItemStatus::Vendido,
-            },
+            // Item {
+            //     image_url: "images/sticks/2sProShadow.jpg",
+            //     name: "Bauer 2S pro shadow line",
+            //     description: "87 flex p28",
+            //     price: 110.0,
+            //     status: ItemStatus::Vendido,
+            // },
             // Item {
             //     image_url: "images/sticks/VaporX4.jpg",
             //     name: "Bauer Vapor x4",
@@ -440,13 +440,13 @@ impl Item {
             //     price: 175.0,
             //     status: ItemStatus::Vendido,
             // },
-            Item {
-                image_url: "images/sticks/nexus3N.png",
-                name: "Bauer nexus 3N",
-                description: "77 flex p92",
-                price: 100.0,
-                status: ItemStatus::Vendido,
-            },
+            // Item {
+            //     image_url: "images/sticks/nexus3N.png",
+            //     name: "Bauer nexus 3N",
+            //     description: "77 flex p92",
+            //     price: 100.0,
+            //     status: ItemStatus::Vendido,
+            // },
             Item {
                 image_url: "images/sticks/hiperLite2.jpg.jpeg",
                 name: "Bauer Vapor HiperLite2",
@@ -482,13 +482,13 @@ impl Item {
             //     price: 130.0,
             //     status: ItemStatus::Vendido
             // },
-            Item {
-                image_url: "images/sticks/ultraSonic.jpg",
-                name: "Bauer Supreme Ultra Sonic",
-                description: "55 flex p92",
-                price: 85.0,
-                status: ItemStatus::Vendido
-            },
+            // Item {
+            //     image_url: "images/sticks/ultraSonic.jpg",
+            //     name: "Bauer Supreme Ultra Sonic",
+            //     description: "55 flex p92",
+            //     price: 85.0,
+            //     status: ItemStatus::Vendido
+            // },
             // Item {
             //     image_url: "images/sticks/2S70.jpeg",
             //     name: "Bauer Supreme 2s",
@@ -573,13 +573,13 @@ impl Item {
             //     price: 60.0,
             //     status: ItemStatus::Vendido
             // },
-            Item {
-                image_url: "images/sticks/trueXC5.jpg",
-                name: "True Xc5",
-                description: "58 flex p92",
-                price: 55.0,
-                status: ItemStatus::Vendido
-            },
+            // Item {
+            //     image_url: "images/sticks/trueXC5.jpg",
+            //     name: "True Xc5",
+            //     description: "58 flex p92",
+            //     price: 55.0,
+            //     status: ItemStatus::Vendido
+            // },
             // Item {
             //     image_url: "images/sticks/eastonSynergy.jpg",
             //     name: "Easton Synergy gx",
@@ -608,13 +608,13 @@ impl Item {
             //     price: 50.0,
             //     status: ItemStatus::Vendido
             // },
-            Item {
-                image_url: "images/sticks/CCMAS1.jpg",
-                name: "CCM Tacks AS1",
-                description: "75 flex curva custom 5",
-                price: 100.0,
-                status: ItemStatus::Vendido
-            },
+            // Item {
+            //     image_url: "images/sticks/CCMAS1.jpg",
+            //     name: "CCM Tacks AS1",
+            //     description: "75 flex curva custom 5",
+            //     price: 100.0,
+            //     status: ItemStatus::Vendido
+            // },
             Item {
                 image_url: "images/sticks/trueXC7.jpg",
                 name: "True Xc7",
@@ -643,20 +643,20 @@ impl Item {
                 price: 175.0,
                 status: ItemStatus::Vendido
             },
-            Item {
-                image_url: "images/sticks/bauerCustom.jpeg",
-                name: "Bauer Nexus Custom",
-                description: "70 flex p92",
-                price: 160.0,
-                status: ItemStatus::Vendido,
-            },
-            Item {
-                image_url: "images/sticks/bauerNexusSync.jpg",
-                name: "Bauer Nexus Sync",
-                description: "77 flex p92",
-                price: 150.0,
-                status: ItemStatus::Disponible,
-            },
+            // Item {
+            //     image_url: "images/sticks/bauerCustom.jpeg",
+            //     name: "Bauer Nexus Custom",
+            //     description: "70 flex p92",
+            //     price: 160.0,
+            //     status: ItemStatus::Vendido,
+            // },
+            // Item {
+            //     image_url: "images/sticks/bauerNexusSync.jpg",
+            //     name: "Bauer Nexus Sync",
+            //     description: "77 flex p92",
+            //     price: 150.0,
+            //     status: ItemStatus::Disponible,
+            // },
             Item {
                 image_url: "images/sticks/bauerAg5nt.jpg",
                 name: "Bauer AG5NT",
@@ -753,13 +753,13 @@ impl Item {
             //     price: 65.0,
             //     status: ItemStatus::Vendido,
             // },
-            Item {
-                image_url: "images/sticks/bauerProto.png",
-                name: "Bauer Proto",
-                description: "65 flex 90tm ",
-                price: 195.0,
-                status: ItemStatus::Vendido,
-            },
+            // Item {
+            //     image_url: "images/sticks/bauerProto.png",
+            //     name: "Bauer Proto",
+            //     description: "65 flex 90tm ",
+            //     price: 195.0,
+            //     status: ItemStatus::Vendido,
+            // },
             Item {
                 image_url: "images/sticks/bauerCustom.jpeg",
                 name: "Bauer Nexus Custom",
@@ -774,34 +774,34 @@ impl Item {
                 price: 150.0,
                 status: ItemStatus::Disponible,
             },
-            Item {
-                image_url: "images/sticks/bauerNexusTracer.png",
-                name: "Bauer Nexus Tracer",
-                description: "77 flex p92",
-                price: 195.0,
-                status: ItemStatus::Vendido,
-            },
-            Item {
-                image_url: "images/sticks/bauerNexusTracer.png",
-                name: "Bauer Nexus Tracer",
-                description: "70 flex p92",
-                price: 195.0,
-                status: ItemStatus::Vendido,
-            },
-            Item {
-                image_url: "images/sticks/bauerNexusE50Pro.jpg",
-                name: "Bauer Nexus E.50 Pro",
-                description: "70 flex p28",
-                price: 175.0,
-                status: ItemStatus::Vendido,
-            },
-            Item {
-                image_url: "images/sticks/HyperLite55.jpg",
-                name: "Bauer HyperLite 2",
-                description: "77 flex p92M",
-                price: 200.0,
-                status: ItemStatus::Vendido,
-            },
+            // Item {
+            //     image_url: "images/sticks/bauerNexusTracer.png",
+            //     name: "Bauer Nexus Tracer",
+            //     description: "77 flex p92",
+            //     price: 195.0,
+            //     status: ItemStatus::Vendido,
+            // },
+            // Item {
+            //     image_url: "images/sticks/bauerNexusTracer.png",
+            //     name: "Bauer Nexus Tracer",
+            //     description: "70 flex p92",
+            //     price: 195.0,
+            //     status: ItemStatus::Vendido,
+            // },
+            // Item {
+            //     image_url: "images/sticks/bauerNexusE50Pro.jpg",
+            //     name: "Bauer Nexus E.50 Pro",
+            //     description: "70 flex p28",
+            //     price: 175.0,
+            //     status: ItemStatus::Vendido,
+            // },
+            // Item {
+            //     image_url: "images/sticks/HyperLite55.jpg",
+            //     name: "Bauer HyperLite 2",
+            //     description: "77 flex p92M",
+            //     price: 200.0,
+            //     status: ItemStatus::Vendido,
+            // },
             // Item {
             //     image_url: "images/sticks/flyLite70.jpg.jpeg",
             //     name: "Bauer Fly Lite",
@@ -921,20 +921,20 @@ impl Item {
             //     price: 100.0,
             //     status: ItemStatus::Vendido,
             // },
-            Item {
-                image_url: "images/sticks/bauerNexusSync.jpg",
-                name: "Bauer Nexus Sync",
-                description: "65 flex p92",
-                price: 170.0,
-                status: ItemStatus::Vendido,
-            },
-            Item {
-                image_url: "images/sticks/bauerAg5nt.jpg",
-                name: "Bauer AG5NT",
-                description: "55 flex p92",
-                price: 180.0,
-                status: ItemStatus::Vendido,
-            },
+            // Item {
+            //     image_url: "images/sticks/bauerNexusSync.jpg",
+            //     name: "Bauer Nexus Sync",
+            //     description: "65 flex p92",
+            //     price: 170.0,
+            //     status: ItemStatus::Vendido,
+            // },
+            // Item {
+            //     image_url: "images/sticks/bauerAg5nt.jpg",
+            //     name: "Bauer AG5NT",
+            //     description: "55 flex p92",
+            //     price: 180.0,
+            //     status: ItemStatus::Vendido,
+            // },
             Item {
                 image_url: "images/sticks/ccmFT8pro.jpg",
                 name: "CCM FT8 Pro",
