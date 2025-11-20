@@ -1122,6 +1122,15 @@ impl Item {
                 kickpoint: "mid-high kick point",
                 status: ItemStatus::Disponible,
             },
+            // Item {
+            //     image_url: "images/sticks/pulse.webp",
+            //     name: "Bauer PULSE",
+            //     description: "curves: p92, p28",
+            //     flex: "flex: 40, 50, 55, 65, 70, 77, 87, 102",
+            //     price: "150€-170€",
+            //     kickpoint: "hybrid kick point",
+            //     status: ItemStatus::Disponible,
+            // },
             Item {
                 image_url: "images/sticks/bauerNexusTracer.png",
                 name: "Bauer TRACER",
