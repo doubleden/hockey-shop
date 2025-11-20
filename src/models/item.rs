@@ -1045,4 +1045,16 @@ impl Item {
             },
         ]
     }
+
+    pub fn get_sticks_for_order() -> Vec<Item> {
+        return vec![
+            Item {
+                image_url: "images/sticks/ccmVizion.webp",
+                name: "CCM Vizion",
+                description: "curves: p29, p28/nflex: 40, 50, 55, 65, 70, 75, 85, 95, 105",
+                price: 180.0,
+                status: ItemStatus::Disponible,
+            },
+        ]
+    }
 }

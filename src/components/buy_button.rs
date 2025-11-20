@@ -28,7 +28,7 @@ pub fn WhatsappButton(item: Item) -> impl IntoView {
                 PHONE_NUMBER,
                 urlencoding::encode(&ordenar_message)
             );
-            ("Comprar", whatsapp_url)
+            ("Pedir", whatsapp_url)
         },
         _ => {
             ("No disponible", String::new())
