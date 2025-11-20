@@ -1138,7 +1138,7 @@ impl Item {
                 status: ItemStatus::Disponible,
             },
             Item {
-                image_url: "images/portero/nolabel.png",
+                image_url: "images/sticks/nolabel.png",
                 name: "No Label Stick",
                 description: "Cualquiera de los palos mencionados sin diseño.",
                 flex: "",
