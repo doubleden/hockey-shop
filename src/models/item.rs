@@ -12,6 +12,7 @@ pub struct Item {
     pub name: &'static str,
     pub description: &'static str,
     pub flex: &'static str,
+    pub kickpoint: &'static str,
     pub price: &'static str,
     pub status: ItemStatus
 }
@@ -1055,6 +1056,7 @@ impl Item {
                 description: "curves: p29, p28",
                 flex: "flex: 40, 50, 55, 65, 70, 75, 85, 95, 105",
                 price: "150€-170€",
+                kickpoint: "ultra low kick point",
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -1063,6 +1065,7 @@ impl Item {
                 description: "curves: p29, p28",
                 flex: "flex: 70, 75, 85, 95, 105",
                 price: "150€-170€",
+                kickpoint: "low kick point",
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -1071,6 +1074,7 @@ impl Item {
                 description: "curves: p29, p28",
                 flex: "flex: 55, 65, 70, 75, 85, 95, 105",
                 price: "150€-170€",
+                kickpoint: "hybrid kick point",
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -1079,6 +1083,7 @@ impl Item {
                 description: "curves: p29, p28",
                 flex: "flex: 55, 65, 70, 75, 85, 95, 105",
                 price: "150€-170€",
+                kickpoint: "hybrid kick point",
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -1087,6 +1092,7 @@ impl Item {
                 description: "curves: p92, p28",
                 flex: "flex: 30, 55, 65, 70, 77, 87, 102",
                 price: "150€-170€",
+                kickpoint: "low kick point",
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -1095,6 +1101,7 @@ impl Item {
                 description: "curves: p92, p28",
                 flex: "flex: 40, 50, 55, 65, 70, 77, 87, 102",
                 price: "150€-170€",
+                kickpoint: "low kick point",
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -1103,6 +1110,7 @@ impl Item {
                 description: "curves: p92, p28",
                 flex: "flex: 30, 40, 50, 55, 65, 70, 77, 87, 102",
                 price: "150€-170€",
+                kickpoint: "ultra low kick point",
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -1111,14 +1119,16 @@ impl Item {
                 description: "curves: p92, p28",
                 flex: "flex: 40, 50, 55, 65, 70, 77, 87, 102",
                 price: "150€-170€",
+                kickpoint: "mid-high kick point",
                 status: ItemStatus::Disponible,
             },
             Item {
                 image_url: "images/sticks/bauerNexusTracer.png",
-                name: "Bauer NEXUS TRACER",
+                name: "Bauer TRACER",
                 description: "curves: p92, p28, p88",
                 flex: "flex: 40, 50, 55, 65, 70, 77, 87",
                 price: "150€-170€",
+                kickpoint: "mid kick point",
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -1127,6 +1137,7 @@ impl Item {
                 description: "curves: p92, p28",
                 flex: "flex: 40, 50, 55, 65, 70, 77, 87",
                 price: "150€-170€",
+                kickpoint: "low kick point",
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -1135,6 +1146,7 @@ impl Item {
                 description: "curves: p31",
                 flex: "height: 23``, 25``, 26``, 27``",
                 price: "200€-230€",
+                kickpoint: "",
                 status: ItemStatus::Disponible,
             },
             Item {
@@ -1143,6 +1155,7 @@ impl Item {
                 description: "Cualquiera de los palos mencionados sin diseño.",
                 flex: "",
                 price: "130€-150€",
+                kickpoint: "",
                 status: ItemStatus::Disponible,
             },
         ]

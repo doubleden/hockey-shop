@@ -991,11 +991,11 @@ imports.wbg.__wbindgen_closure_wrapper253 = function(arg0, arg1, arg2) {
     const ret = makeMutClosure(arg0, arg1, 15, __wbg_adapter_34);
     return addHeapObject(ret);
 };
-imports.wbg.__wbindgen_closure_wrapper1303 = function(arg0, arg1, arg2) {
+imports.wbg.__wbindgen_closure_wrapper1304 = function(arg0, arg1, arg2) {
     const ret = makeMutClosure(arg0, arg1, 60, __wbg_adapter_37);
     return addHeapObject(ret);
 };
-imports.wbg.__wbindgen_closure_wrapper1670 = function(arg0, arg1, arg2) {
+imports.wbg.__wbindgen_closure_wrapper1671 = function(arg0, arg1, arg2) {
     const ret = makeMutClosure(arg0, arg1, 70, __wbg_adapter_34);
     return addHeapObject(ret);
 };
