@@ -25,7 +25,7 @@ pub fn ProductItem(product: Item) -> impl IntoView {
                 <div class="descr">{product.description}</div>
                 <div class="descr">{product.flex}</div>
                 <div class="descr">{product.kickpoint}</div>
-                <p>{format!("Price: {}€ ", product.price)}</p>
+                <p>{format!("Price: {}", product.price)}</p>
             </div>
             <div>
                 <div class="product-status">
