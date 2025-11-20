@@ -987,16 +987,16 @@ imports.wbg.__wbg_instanceof_Window_5012736c80a01584 = function(arg0) {
     const ret = result;
     return ret;
 };
-imports.wbg.__wbindgen_closure_wrapper266 = function(arg0, arg1, arg2) {
+imports.wbg.__wbindgen_closure_wrapper253 = function(arg0, arg1, arg2) {
     const ret = makeMutClosure(arg0, arg1, 15, __wbg_adapter_34);
     return addHeapObject(ret);
 };
-imports.wbg.__wbindgen_closure_wrapper1314 = function(arg0, arg1, arg2) {
-    const ret = makeMutClosure(arg0, arg1, 61, __wbg_adapter_37);
+imports.wbg.__wbindgen_closure_wrapper1303 = function(arg0, arg1, arg2) {
+    const ret = makeMutClosure(arg0, arg1, 60, __wbg_adapter_37);
     return addHeapObject(ret);
 };
-imports.wbg.__wbindgen_closure_wrapper1681 = function(arg0, arg1, arg2) {
-    const ret = makeMutClosure(arg0, arg1, 71, __wbg_adapter_34);
+imports.wbg.__wbindgen_closure_wrapper1670 = function(arg0, arg1, arg2) {
+    const ret = makeMutClosure(arg0, arg1, 70, __wbg_adapter_34);
     return addHeapObject(ret);
 };
 
